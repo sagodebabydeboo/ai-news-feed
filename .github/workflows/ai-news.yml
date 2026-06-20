@@ -2,12 +2,20 @@ name: AI News Briefing Feed
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC。07:00 JST = 前日 22:00 UTC。
-    - cron: "0 22 * * *"     # 毎朝7時(JST)に日次ダイジェスト
-  workflow_dispatch: {}       # 手動実行ボタン（テスト用）
+    # 1日1回だけ起動。JST 2:00 = 前日 17:00 UTC。
+    # モード（日次/週間/月間）はジョブ内で「その日のJST曜日・日付」から判定するので、
+    # 2本同時に走ることはない。
+    - cron: "0 17 * * *"
+  workflow_dispatch:        # 手動実行（モードを選べる）
+    inputs:
+      mode:
+        description: "実行モード"
+        type: choice
+        options: [daily, weekly, monthly]
+        default: daily
 
 permissions:
-  contents: write             # feed.xml をリポジトリに push するため
+  contents: write
 
 concurrency:
   group: ai-news-feed
@@ -19,29 +27,58 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ github.event.inputs.mode }}"
+          else
+            DOW=$(TZ=Asia/Tokyo date +%u)    # 1=月 ... 7=日
+            DOM=$(TZ=Asia/Tokyo date +%-d)   # 1..31（先頭ゼロなし）
+            if [ "$DOW" -eq 6 ] && [ "$DOM" -le 7 ]; then
+              MODE="monthly"   # 第1土曜 → 月間（この日は日次・週間とも走らない）
+            elif [ "$DOW" -eq 7 ]; then
+              MODE="weekly"    # 日曜 → 週間（この日は日次は走らない）
+            else
+              MODE="daily"     # それ以外 → 日次
+            fi
+          fi
+          # モデルの出し分け（ハイブリッド）：日次=Sonnet(軽量)／週間・月間=Opus(高品質)
+          case "$MODE" in
+            daily) MODEL="claude-sonnet-4-6" ;;
+            *)     MODEL="claude-opus-4-8" ;;
+          esac
+          echo "mode=$MODE"   >> "$GITHUB_OUTPUT"
+          echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+          echo "選択モード: $MODE / モデル: $MODEL ($(TZ=Asia/Tokyo date '+%Y-%m-%d %a') JST)"
+
       - name: Generate briefing & update feed.xml
         env:
-          # Claude 定額(Pro/Max)の OAuth トークン。`claude setup-token` で発行し
-          # リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN として登録する。
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MODE: ${{ steps.mode.outputs.mode }}
+          MODEL: ${{ steps.mode.outputs.model }}
         run: |
           # 貼り付け時に混入した空白・改行を除去（不正ヘッダー対策）
           export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')"
+          # モデルは Determine mode で決定（日次=Sonnet／週間・月間=Opus）
           claude -p "$(cat prompt.md)" \
+            --model "$MODEL" \
             --allowedTools "WebSearch,Read,Write,Edit,Bash" \
             --dangerously-skip-permissions
 
       - name: Commit & push if changed
+        env:
+          MODE: ${{ steps.mode.outputs.mode }}
         run: |
           git config user.name  "ai-news-bot"
           git config user.email "ai-news-bot@users.noreply.github.com"
@@ -49,6 +86,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "feed.xml に変更なし（記事が見つからなかった可能性）"
           else
-            git commit -m "AI news feed update: $(date -u +%Y-%m-%d)"
+            git commit -m "AI news feed update (${MODE}): $(date -u +%Y-%m-%d)"
             git push
           fi
