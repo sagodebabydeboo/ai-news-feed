@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AIニュース・ブリーフィング（Webディレクター向け）</title>
+    <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+    <description>Webディレクター視点で選んだAI関連ニュースの定期ダイジェスト。国内10件・海外10件。</description>
+    <language>ja</language>
+    <!-- ここから下に各回の <item> が自動で追記されます -->
+  </channel>
+</rss>

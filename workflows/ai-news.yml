@@ -1,0 +1,52 @@
+name: AI News Briefing Feed
+
+on:
+  schedule:
+    # GitHub Actions の cron は UTC。07:00 JST = 前日 22:00 UTC。
+    - cron: "0 22 * * *"     # 毎朝7時(JST)に日次ダイジェスト
+  workflow_dispatch: {}       # 手動実行ボタン（テスト用）
+
+permissions:
+  contents: write             # feed.xml をリポジトリに push するため
+
+concurrency:
+  group: ai-news-feed
+  cancel-in-progress: false
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Generate briefing & update feed.xml
+        env:
+          # Claude 定額(Pro/Max)の OAuth トークン。`claude setup-token` で発行し
+          # リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN として登録する。
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          claude -p "$(cat prompt.md)" \
+            --allowedTools "WebSearch,Read,Write,Edit,Bash" \
+            --dangerously-skip-permissions
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "ai-news-bot"
+          git config user.email "ai-news-bot@users.noreply.github.com"
+          git add feed.xml
+          if git diff --cached --quiet; then
+            echo "feed.xml に変更なし（記事が見つからなかった可能性）"
+          else
+            git commit -m "AI news feed update: $(date -u +%Y-%m-%d)"
+            git push
+          fi
