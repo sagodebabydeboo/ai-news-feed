@@ -35,6 +35,8 @@ jobs:
           # リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN として登録する。
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
+          # 貼り付け時に混入した空白・改行を除去（不正ヘッダー対策）
+          export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')"
           claude -p "$(cat prompt.md)" \
             --allowedTools "WebSearch,Read,Write,Edit,Bash" \
             --dangerously-skip-permissions
