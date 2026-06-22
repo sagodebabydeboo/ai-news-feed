@@ -2,10 +2,11 @@ name: AI News Briefing Feed
 
 on:
   schedule:
-    # 1日1回だけ起動。JST 2:00 = 前日 17:00 UTC。
-    # モード（日次/週間/月間）はジョブ内で「その日のJST曜日・日付」から判定するので、
-    # 2本同時に走ることはない。
-    - cron: "0 17 * * *"
+    # 1日1回だけ起動。≈01:40 JST = 前日 16:40 UTC。
+    # 分を :00 から外しているのは GitHub のスケジュール遅延（毎時00分が最混雑）を避けるため。
+    # モード（日次/週間/月間/skip）はジョブ内で「その日のJST曜日・日付」から判定する。
+    # 日次は月・水・金のみ。火・木・第2以降の土は skip（何もしない）。2本同時には走らない。
+    - cron: "40 16 * * *"
   workflow_dispatch:        # 手動実行（モードを選べる）
     inputs:
       mode:
@@ -43,19 +44,23 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.mode }}"
           else
-            DOW=$(TZ=Asia/Tokyo date +%u)    # 1=月 ... 7=日
-            DOM=$(TZ=Asia/Tokyo date +%-d)   # 1..31（先頭ゼロなし）
-            if [ "$DOW" -eq 6 ] && [ "$DOM" -le 7 ]; then
-              MODE="monthly"   # 第1土曜 → 月間（この日は日次・週間とも走らない）
+            DOW=$(TZ=Asia/Tokyo date +%u)             # 1=月 ... 7=日
+            THIS_MONTH=$(TZ=Asia/Tokyo date +%m)      # 今月
+            NEXT_SAT_MONTH=$(TZ=Asia/Tokyo date -d "+7 days" +%m)  # 7日後（＝次の土曜）の月
+            if [ "$DOW" -eq 6 ] && [ "$THIS_MONTH" != "$NEXT_SAT_MONTH" ]; then
+              MODE="monthly"   # 最終土曜 → 月間（この日は日次・週間とも走らない）
             elif [ "$DOW" -eq 7 ]; then
-              MODE="weekly"    # 日曜 → 週間（この日は日次は走らない）
+              MODE="weekly"    # 日曜 → 週間
+            elif [ "$DOW" -eq 1 ] || [ "$DOW" -eq 3 ] || [ "$DOW" -eq 5 ]; then
+              MODE="daily"     # 月・水・金 → 日次
             else
-              MODE="daily"     # それ以外 → 日次
+              MODE="skip"      # 火・木・第2以降の土 → 何もしない
             fi
           fi
           # モデルの出し分け（ハイブリッド）：日次=Sonnet(軽量)／週間・月間=Opus(高品質)
           case "$MODE" in
             daily) MODEL="claude-sonnet-4-6" ;;
+            skip)  MODEL="" ;;
             *)     MODEL="claude-opus-4-8" ;;
           esac
           echo "mode=$MODE"   >> "$GITHUB_OUTPUT"
@@ -63,6 +68,7 @@ jobs:
           echo "選択モード: $MODE / モデル: $MODEL ($(TZ=Asia/Tokyo date '+%Y-%m-%d %a') JST)"
 
       - name: Generate briefing & update feed.xml
+        if: steps.mode.outputs.mode != 'skip'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           MODE: ${{ steps.mode.outputs.mode }}
@@ -77,6 +83,7 @@ jobs:
             --dangerously-skip-permissions
 
       - name: Commit & push if changed
+        if: steps.mode.outputs.mode != 'skip'
         env:
           MODE: ${{ steps.mode.outputs.mode }}
         run: |
