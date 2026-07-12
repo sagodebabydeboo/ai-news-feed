@@ -7,6 +7,276 @@
     <language>ja</language>
     <!-- ここから下に各回の <item> が自動で追記されます -->
     <item>
+      <title>【AIニュース】2026年7月12日（Webディレクター向け）</title>
+      <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+      <guid isPermaLink="false">2026-07-12-daily</guid>
+      <pubDate>Sun, 12 Jul 2026 20:09:36 +0000</pubDate>
+      <description><![CDATA[<h2>【AIニュース】2026年7月12日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>Zenn「2026年のAI Coding Agent活用 ── スピードと安全性を両立させる」</strong></p>
+    <p>Zennのteam_zennが、AI Coding Agentを業務利用する際のセキュリティリスクと安全な運用手順を整理した実践記事を公開した。AIエージェントがコードを自律実行する環境では、不正なコマンド実行や機密情報漏えいのリスクが増す。チームとして安全に使うための権限管理・レビューフロー・ログ取得の指針を具体的に示している。AIをコードに触れさせる際のガバナンス設計まで踏み込んでいる点が実務的。</p>
+    <p>AIによるコード生成を制作フローに組み込む際、品質管理と同時にセキュリティ設計が必要になる。クライアント案件でAI生成コードを使う制作会社にとって、契約・責任範囲の整理にも関わる論点だ。</p>
+    <p><a href="https://zenn.dev/team_zenn/articles/ai-agent-security">出典：Zenn / team_zenn</a></p>
+  </li>
+  <li>
+    <p><strong>アイ・エイ・ジェイ「2026年のフロントエンド開発を変える次世代フレームワークの兆し」</strong></p>
+    <p>アイ・エイ・ジェイが、AIを前提とした設計を持つ次世代フレームワークが台頭しつつある兆候を整理した。AIによるコード補完・生成が標準になるに伴い、フレームワーク自体がAI連携を考慮した構造に変わりつつある。開発者はAIとの協業を前提に、設計・UX改善に集中できる構造へ移行していくとみる。Reactの自動最適化進化により、手動メモ化がレガシー化する動きも重なる。</p>
+    <p>フレームワーク選定はWeb制作の中長期コストに直結する。ディレクターがAI前提での技術スタック選びを開発メンバーと議論する下地になる。</p>
+    <p><a href="https://www.iamjava.com/article0179/">出典：アイ・エイ・ジェイ</a></p>
+  </li>
+  <li>
+    <p><strong>AIツールギャラリー「非エンジニアが実際に使ったAIコーディングツール7選（2026年最新）」</strong></p>
+    <p>AIツールギャラリーが、非エンジニアの目線でAIコーディングツール7選を実際に使い比較した記事を公開した。GitHub Copilot・Cursor・v0・Claude Codeなど主要ツールを使いやすさ・学習コスト・制作用途の3軸で評価している。非エンジニアでも「動くもの」に近づける裾野の広がりを実測で示す内容で、コードが書けないメンバーからの視点が珍しい。</p>
+    <p>ディレクターやデザイナーがツールを自ら試す際の参考になる。社内教育計画や初期ライセンス費の試算を立てる際の判断軸になる情報だ。</p>
+    <p><a href="https://ai-gallery.jp/ai-coding-tools-comparison-2026/">出典：AIツールギャラリー</a></p>
+  </li>
+  <li>
+    <p><strong>Zenn「2026年WEB開発の基本になる変化」（acrosstudioblog）</strong></p>
+    <p>Zennの開発ブログが、2026年時点でWeb開発の「基本」として定着しつつある変化をまとめた。AIによるコード補完は省略できない標準工程になり、React 19の自動最適化により手動のメモ化（useMemo等）がレガシー化しつつある。開発ベロシティと品質の前提が書き換わっている実態を整理しており、「普通」の水準が急速に更新されていることがよく分かる。</p>
+    <p>制作の「普通」が変わると、見積・工程管理の単位も変わる。ディレクターがエンジニアと共通言語を持つために知っておくべき変化だ。</p>
+    <p><a href="https://zenn.dev/acrosstudioblog/articles/4138c8ec633df8">出典：Zenn / acrosstudioblog</a></p>
+  </li>
+  <li>
+    <p><strong>KOKOPE UX「プロトタイピングに生成AIを取り入れる実験的ワークフロー」</strong></p>
+    <p>KOKOPE UX &amp; TECH BLOGが、UX設計のプロトタイピング工程に生成AIを差し込む実験的ワークフローを詳解した。AIにアイデアの発散・画面構成の初稿を任せ、人がUX観点のレビューと検証に集中する分業スタイルを試みた記録だ。実際に試した際の想定外の失敗と学習も包み隠さず公開しており、現実的なトライアル感がある。</p>
+    <p>UXプロセスにAIを組み込む際の現実的なトライアル手順は、導入を検討するチームがリスクを見積もるのに役立つ。ディレクターが社内実験の旗振りをする際の参考になる。</p>
+    <p><a href="https://tomatoyoda.com/blog/2025/07/27/%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0%E3%81%AB%E7%94%9F%E6%88%90ai%E3%82%92%E5%8F%96%E3%82%8A%E5%85%A5%E3%82%8C%E3%82%8B%E5%AE%9F%E9%A8%93%E7%9A%84%E3%83%AF%E3%83%BC/">出典：KOKOPE UX &amp; TECH BLOG</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita「生成AI時代、UI/UXデザインに何が起きているか？（NN/G最新論点まとめ）」（katoriko）</strong></p>
+    <p>QiitaでNielsen Norman Groupの最新論点を整理した記事が公開された。生成AIはUX設計の「スピード」は上げるが、リサーチや検証の省略とは異なるという整理と、AIが生成するUIが人間の認知・期待に合致するか検証する重要性を論じている。一方的なAI礼賛ではなく、UX専門家として何を守るかを示す内容で、現場の冷静な視点が貴重。</p>
+    <p>AI生成UIの品質を担保するためには、UX視点の評価工程を残す設計が必要だ。ディレクターがAI活用の中で品質管理の枠組みを定める根拠になる。</p>
+    <p><a href="https://qiita.com/katoriko/items/ce46a3b81793acb3724c">出典：Qiita / katoriko</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】note「AIニュース速報（2026年7月2〜3日）—Microsoft・Anthropic・OpenAI動向まとめ」（t-kawa@AI毎日投稿）</strong></p>
+    <p>noteで毎日AIニュースをまとめているt-kawa氏が、2026年7月2〜3日のAI業界動向を速報でまとめた。MicrosoftのFrontier Company設立（25億ドル）、AnthropicとSamsungの2nmチップ協業、OpenAIの株式5%寄付提案など、AI産業インフラの大型動向が1記事で把握できる。個人発信ながら網羅性と速度が高く、業界ウォッチャーに人気の情報源。</p>
+    <p>AIモデル・インフラの基盤がどこに向かうかは、ツール選定や長期体制設計に影響する。ディレクターがAI業界全体の動きを短時間でキャッチアップするのに最適な情報源。</p>
+    <p><a href="https://note.com/t_kawa_awak/n/ndb90adb8349d">出典：note / t-kawa@AI毎日投稿</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Qiita「AIでUX設計は加速する？——プロトタイプ生成の前に考えるべきこと」（RisaMoriya）</strong></p>
+    <p>QiitaでRisaMoriya氏が、生成AIによるUX設計の「加速」と「省略」の違いを論じた記事を公開した。AIにプロトタイプを出力させる前に、リサーチ・仮説設定・ユーザー検証のプロセスを省略してはいけないと警鐘を鳴らす。加速とは検証サイクルを速めることであり、プロセスをスキップすることではないという明快な整理がコミュニティで評価されている。</p>
+    <p>「とにかくAIで速く作る」に偏りがちな現場で、UXの品質を守るためのディレクション観点を提供する。発注者へのUX提案の論拠としても使いやすい。</p>
+    <p><a href="https://qiita.com/RisaMoriya/items/845bb7cef73bd298a1b5">出典：Qiita / RisaMoriya</a></p>
+  </li>
+  <li>
+    <p><strong>mct note「AIで素早く質の高いUIは作れるか？を試してみました」</strong></p>
+    <p>株式会社mctが、複数のAI UIジェネレーターに同じ要件を与えてUIを生成し、品質・速さ・実用性を比較実験した記事をnoteで公開した。生成速度は劇的に速いが、デザイン一貫性・アクセシビリティ・細部の調整で人の手が必要な箇所も明確になったという。「任せられる領域」と「人が見なければいけない領域」が実験で浮き彫りになっている。</p>
+    <p>AI UIの「使える品質」の現在地を知ることは、制作見積の根拠づくりに直結する。どこまでAIに任せ、どこから人手をかけるかの線引きをディレクターが決めるための材料になる。</p>
+    <p><a href="https://note.com/mctinc/n/n4866dc317f9d">出典：mct / note</a></p>
+  </li>
+  <li>
+    <p><strong>BrainPad Doors DX「生成AIアプリケーションのUI/UX——今後どのような設計の視点が必要？」</strong></p>
+    <p>BrainPadのメディアDoors DXが、生成AI機能を搭載するWebアプリケーションのUI/UX設計で求められる新しい視点を整理した。AIの「不確かな出力」をユーザーが受け取る際の期待管理・エラー表現・信頼醸成デザインが従来にない課題として浮上していると論じる。チャットUIに限らず、あらゆるAI機能搭載サービスに共通する設計課題を整理している。</p>
+    <p>AI機能を搭載したWebサービスを受託・企画する機会が増える中、UI/UXの要件定義で新たな論点を押さえておく必要がある。ディレクターがAI組み込み案件の要件定義フェーズで使える視点だ。</p>
+    <p><a href="https://www.brainpad.co.jp/doors/contents/generativeai_ui_ux/">出典：BrainPad Doors DX</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>Build Fast With AI「AI News Today July 12, 2026: 15 Biggest Stories」</strong></p>
+    <p>Build Fast With AIが2026年7月12日のAI業界ビッグニュース15件を速報した。Apple対OpenAI商標訴訟（元Apple社員400人超が渡航）、GPT-5.6の一般提供開始（7/9）、Meta Museの画像生成モデル公開（7/7）、Google Gemini 3.5 Proの7/17 GA予告などが含まれる。Claude Fable 5がWebDev Arena首位（1653 Elo）であることも触れられている。</p>
+    <p>基盤モデルの提供体制変化は、Web制作で使うAIツールの裏側に直接影響する。ディレクターが中長期のツール選定・体制設計をする際の外部環境把握に使える今日の速報源。</p>
+    <p><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026">出典：Build Fast With AI</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Medium「AI NEWS: Week of July 6 to July 12, 2026」（David Akpovi）</strong></p>
+    <p>MediumのDavid Akpovi氏が、2026年7月6〜12日のAIニュース週間まとめを公開した。Claude Fable 5の輸出規制からの復帰（7/1）、GPT-5.6一般提供（7/9）、Gemini 3.5 Proの7/17 GA予告を始め、AIエージェントのブラウザ操作対応が各社で進んだ1週間を総括している。コンパクトにまとまっており英語速報として使いやすい。</p>
+    <p>週単位でAI業界を追うことで、ツール選定と体制設計に影響する変化を早期にキャッチできる。日本語情報と合わせて確認できる海外速報として活用できる。</p>
+    <p><a href="https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55">出典：Medium / David Akpovi</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】LinkedIn「AI Prototyping with Figma Make vs Cursor: A Quick Reflection」（Jordan Putnam）</strong></p>
+    <p>LinkedInでJordan Putnam氏が、Figma MakeとCursorを同じプロトタイプ課題に使い比べた短評を投稿した。Figma MakeはデザインシステムとのFigma整合性が高く、CursorはMCP経由のFigma連携でコードとデザインを行き来できる利点がある。両者は競合より補完関係にあるというのが結論で、実務的な知見がコンパクトに得られる。</p>
+    <p>プロトタイピングツールを「デザインかコードか」の二択で選ぶ時代が終わりつつある。ディレクターが制作フローの中でツールをどう組み合わせるか設計する際の参考になる。</p>
+    <p><a href="https://www.linkedin.com/posts/jordan-putnam26_cursor-mcp-figma-activity-7348539993918783488-8wwn">出典：LinkedIn / Jordan Putnam</a></p>
+  </li>
+  <li>
+    <p><strong>ortemtech「Google Stitch vs v0 vs Figma AI 2026: Tested on Real Production UI Tasks」</strong></p>
+    <p>ortemtechが、Google Stitch・v0・Figma AI（Figma Make）を実際のプロダクションUIタスクで使い比較した2026年最新検証記事を公開した。Stitchはビジュアル探索に強く、v0はコンポーネント生成、Figma AIはデザインシステム整合に強みがあり、用途ごとの使い分けがはっきりしている。「Stitch→探索、v0→コンポーネント、Lovable/Cursor→フルスタック組み立て」という推奨フローも示す。</p>
+    <p>ツール横断で「どれが最強か」ではなく「どの工程に何を使うか」という問い方が実務的だ。ディレクターが制作標準を整備し、ツールの組み合わせ方針を決める参考になる。</p>
+    <p><a href="https://ortemtech.com/blog/ai-design-tools-comparison-2026-figma-v0-google-stitch/">出典：ortemtech</a></p>
+  </li>
+  <li>
+    <p><strong>AI Builder Club「Vibe Design: The AI UI Workflow That Replaces Figma-First」</strong></p>
+    <p>AI Builder Clubが、Figmaで画面を作ってから実装に渡すという従来の「Figma-first」フローに代わる「Vibe Design（プロンプト→コード→確認）」ワークフローを解説した。CursorにV0のモデルを組み込み、プロンプトからUIコードを生成して確認するサイクルを先に回すアプローチだ。Figmaはドキュメントや仕様書として使う位置づけへ変わり、制作順序が逆転する。</p>
+    <p>デザイン→実装の直列フローが崩れると、ディレクション・確認・修正のタイミングも変わる。現行の制作フローのどこにVibe Designが入るか、ディレクターが自社に引きつけて検討できる。</p>
+    <p><a href="https://www.aibuilderclub.com/blog/vibe-design-ai-ui-workflow">出典：AI Builder Club</a></p>
+  </li>
+  <li>
+    <p><strong>Headway「Building Prototypes Faster: AI Tools for Designers（Figma Make, Cursor &amp; Claude Code）」</strong></p>
+    <p>ソフトウェアエージェンシーのHeadwayが、デザイナー向けに3つのAIプロトタイピングツール（Figma Make・Cursor・Claude Code）を実プロジェクトで使った成果を公開した。Figma MakeはUI提案が直感的、CursorはMCP経由でFigmaとコードを行き来でき、Claude Codeは複雑なロジックの実装に強いという棲み分けを示す。コードを書かないデザイナーでも使えるツールの可能性を実務から探る内容。</p>
+    <p>制作プロセスに新ツールを追加する際、学習コストと効果のバランスを現場レポートで把握できる。ディレクターがツール研修と体制導入の優先度を決める際の参考になる。</p>
+    <p><a href="https://www.headway.io/blog/building-prototypes-faster-with-ai-tools-for-designers">出典：Headway Blog</a></p>
+  </li>
+  <li>
+    <p><strong>The Crit「Best AI Coding Tools for Designers 2026: Figma to Code, v0 &amp; Codex」</strong></p>
+    <p>デザイナー向けリソースサイトThe Critが、デザイナーに特化したAIコーディングツールをFigmatoCode・v0・OpenAI Codexなどで横断比較した。「コードを書かずにデザインを実装する」という観点でツールを評価し、デザイナーが独立して実装に踏み込める現実的な方法論を示す。デザイナーが得意な視点での評価が、エンジニア目線のランキングと異なる。</p>
+    <p>デザイナーが実装に踏み込める範囲が広がると、制作チームの体制と役割分担の設計が変わる。見積の工程分解やメンバーの役割定義を見直す際の根拠になる。</p>
+    <p><a href="https://thecrit.co/resources/best-ai-coding-tools-designers-2026">出典：The Crit</a></p>
+  </li>
+  <li>
+    <p><strong>Builder.io「Best AI Coding Tools for Developers in 2026」</strong></p>
+    <p>Builder.ioが2026年版のAIコーディングツール選定ガイドを公開した。Claude Code・Cursor・GitHub Copilot・Replit Agentなどを比較し、「何を作るか」×「誰が使うか」でツールを選ぶ軸を提示している。AIコーディングはもはや特定エンジニアの専用ツールではなく、チームの標準装備として位置づける論調だ。フロントエンドからフルスタックまでカバー。</p>
+    <p>AIコーディングツールの「チーム標準化」という視点は、ディレクターが制作環境を整備する際に直結する。ライセンス費・導入教育・品質基準の3点セットで検討できる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：Builder.io Blog</a></p>
+  </li>
+  <li>
+    <p><strong>Design For Online「The Best AI Models So Far in 2026」</strong></p>
+    <p>Design for Onlineが2026年前半時点で最も有用なAIモデルをデザイン・Web制作観点でまとめた。Claude Fable 5（WebDev Arena 1位・1653 Elo、2位との差92ポイントで過去最大）、GPT-5.6 Sol（日常作業・知識仕事最強）、Gemini 3.5 Pro（マルチモーダル、7/17 GA予定）の3強を軸に、用途別選択肢を整理している。</p>
+    <p>どのAIモデルをどの工程で使うか、という選定は制作コストと品質に直結する。ディレクターが制作標準のモデル選択を整理する指針になる。</p>
+    <p><a href="https://designforonline.com/the-best-ai-models-so-far-in-2026/">出典：Design For Online</a></p>
+  </li>
+  <li>
+    <p><strong>LM Council「AI Model Benchmarks July 2026: GPT-5.5, Claude Opus 4.8, Gemini 3, Grok 4 比較」</strong></p>
+    <p>LM Councilが2026年7月時点のAIモデルベンチマークをGPT-5.5・Claude Opus 4.8・Gemini 3・Grok 4で横断比較した。WebDev Arenaではオープンコードが開発ツール首位、Claude Fable 5が最高Eloで独走。コーディング性能の序列が制作ツール選定に与える影響を定点観測できる貴重なデータソースだ。</p>
+    <p>ツールの中に入っているモデルの性能差が、制作アウトプットの品質差につながる。ディレクターがツール・モデル選定の根拠として参照できるデータ基盤だ。</p>
+    <p><a href="https://lmcouncil.ai/benchmarks">出典：LM Council</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p>最も読むべきは <a href="https://ortemtech.com/blog/ai-design-tools-comparison-2026-figma-v0-google-stitch/">ortemtech「Google Stitch vs v0 vs Figma AI 2026: Tested on Real Production UI Tasks」</a>。Google Stitch・v0・Figma Makeを同じ実務課題で比較し「ツールを1つ選ぶ」のではなく「工程ごとに使い分ける」という実践的結論を出しており、制作フロー標準化を考えるディレクターに今すぐ使える地図になるため。</p>]]></description>
+      <content:encoded><![CDATA[<h2>【AIニュース】2026年7月12日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>Zenn「2026年のAI Coding Agent活用 ── スピードと安全性を両立させる」</strong></p>
+    <p>Zennのteam_zennが、AI Coding Agentを業務利用する際のセキュリティリスクと安全な運用手順を整理した実践記事を公開した。AIエージェントがコードを自律実行する環境では、不正なコマンド実行や機密情報漏えいのリスクが増す。チームとして安全に使うための権限管理・レビューフロー・ログ取得の指針を具体的に示している。AIをコードに触れさせる際のガバナンス設計まで踏み込んでいる点が実務的。</p>
+    <p>AIによるコード生成を制作フローに組み込む際、品質管理と同時にセキュリティ設計が必要になる。クライアント案件でAI生成コードを使う制作会社にとって、契約・責任範囲の整理にも関わる論点だ。</p>
+    <p><a href="https://zenn.dev/team_zenn/articles/ai-agent-security">出典：Zenn / team_zenn</a></p>
+  </li>
+  <li>
+    <p><strong>アイ・エイ・ジェイ「2026年のフロントエンド開発を変える次世代フレームワークの兆し」</strong></p>
+    <p>アイ・エイ・ジェイが、AIを前提とした設計を持つ次世代フレームワークが台頭しつつある兆候を整理した。AIによるコード補完・生成が標準になるに伴い、フレームワーク自体がAI連携を考慮した構造に変わりつつある。開発者はAIとの協業を前提に、設計・UX改善に集中できる構造へ移行していくとみる。Reactの自動最適化進化により、手動メモ化がレガシー化する動きも重なる。</p>
+    <p>フレームワーク選定はWeb制作の中長期コストに直結する。ディレクターがAI前提での技術スタック選びを開発メンバーと議論する下地になる。</p>
+    <p><a href="https://www.iamjava.com/article0179/">出典：アイ・エイ・ジェイ</a></p>
+  </li>
+  <li>
+    <p><strong>AIツールギャラリー「非エンジニアが実際に使ったAIコーディングツール7選（2026年最新）」</strong></p>
+    <p>AIツールギャラリーが、非エンジニアの目線でAIコーディングツール7選を実際に使い比較した記事を公開した。GitHub Copilot・Cursor・v0・Claude Codeなど主要ツールを使いやすさ・学習コスト・制作用途の3軸で評価している。非エンジニアでも「動くもの」に近づける裾野の広がりを実測で示す内容で、コードが書けないメンバーからの視点が珍しい。</p>
+    <p>ディレクターやデザイナーがツールを自ら試す際の参考になる。社内教育計画や初期ライセンス費の試算を立てる際の判断軸になる情報だ。</p>
+    <p><a href="https://ai-gallery.jp/ai-coding-tools-comparison-2026/">出典：AIツールギャラリー</a></p>
+  </li>
+  <li>
+    <p><strong>Zenn「2026年WEB開発の基本になる変化」（acrosstudioblog）</strong></p>
+    <p>Zennの開発ブログが、2026年時点でWeb開発の「基本」として定着しつつある変化をまとめた。AIによるコード補完は省略できない標準工程になり、React 19の自動最適化により手動のメモ化（useMemo等）がレガシー化しつつある。開発ベロシティと品質の前提が書き換わっている実態を整理しており、「普通」の水準が急速に更新されていることがよく分かる。</p>
+    <p>制作の「普通」が変わると、見積・工程管理の単位も変わる。ディレクターがエンジニアと共通言語を持つために知っておくべき変化だ。</p>
+    <p><a href="https://zenn.dev/acrosstudioblog/articles/4138c8ec633df8">出典：Zenn / acrosstudioblog</a></p>
+  </li>
+  <li>
+    <p><strong>KOKOPE UX「プロトタイピングに生成AIを取り入れる実験的ワークフロー」</strong></p>
+    <p>KOKOPE UX &amp; TECH BLOGが、UX設計のプロトタイピング工程に生成AIを差し込む実験的ワークフローを詳解した。AIにアイデアの発散・画面構成の初稿を任せ、人がUX観点のレビューと検証に集中する分業スタイルを試みた記録だ。実際に試した際の想定外の失敗と学習も包み隠さず公開しており、現実的なトライアル感がある。</p>
+    <p>UXプロセスにAIを組み込む際の現実的なトライアル手順は、導入を検討するチームがリスクを見積もるのに役立つ。ディレクターが社内実験の旗振りをする際の参考になる。</p>
+    <p><a href="https://tomatoyoda.com/blog/2025/07/27/%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0%E3%81%AB%E7%94%9F%E6%88%90ai%E3%82%92%E5%8F%96%E3%82%8A%E5%85%A5%E3%82%8C%E3%82%8B%E5%AE%9F%E9%A8%93%E7%9A%84%E3%83%AF%E3%83%BC/">出典：KOKOPE UX &amp; TECH BLOG</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita「生成AI時代、UI/UXデザインに何が起きているか？（NN/G最新論点まとめ）」（katoriko）</strong></p>
+    <p>QiitaでNielsen Norman Groupの最新論点を整理した記事が公開された。生成AIはUX設計の「スピード」は上げるが、リサーチや検証の省略とは異なるという整理と、AIが生成するUIが人間の認知・期待に合致するか検証する重要性を論じている。一方的なAI礼賛ではなく、UX専門家として何を守るかを示す内容で、現場の冷静な視点が貴重。</p>
+    <p>AI生成UIの品質を担保するためには、UX視点の評価工程を残す設計が必要だ。ディレクターがAI活用の中で品質管理の枠組みを定める根拠になる。</p>
+    <p><a href="https://qiita.com/katoriko/items/ce46a3b81793acb3724c">出典：Qiita / katoriko</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】note「AIニュース速報（2026年7月2〜3日）—Microsoft・Anthropic・OpenAI動向まとめ」（t-kawa@AI毎日投稿）</strong></p>
+    <p>noteで毎日AIニュースをまとめているt-kawa氏が、2026年7月2〜3日のAI業界動向を速報でまとめた。MicrosoftのFrontier Company設立（25億ドル）、AnthropicとSamsungの2nmチップ協業、OpenAIの株式5%寄付提案など、AI産業インフラの大型動向が1記事で把握できる。個人発信ながら網羅性と速度が高く、業界ウォッチャーに人気の情報源。</p>
+    <p>AIモデル・インフラの基盤がどこに向かうかは、ツール選定や長期体制設計に影響する。ディレクターがAI業界全体の動きを短時間でキャッチアップするのに最適な情報源。</p>
+    <p><a href="https://note.com/t_kawa_awak/n/ndb90adb8349d">出典：note / t-kawa@AI毎日投稿</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Qiita「AIでUX設計は加速する？——プロトタイプ生成の前に考えるべきこと」（RisaMoriya）</strong></p>
+    <p>QiitaでRisaMoriya氏が、生成AIによるUX設計の「加速」と「省略」の違いを論じた記事を公開した。AIにプロトタイプを出力させる前に、リサーチ・仮説設定・ユーザー検証のプロセスを省略してはいけないと警鐘を鳴らす。加速とは検証サイクルを速めることであり、プロセスをスキップすることではないという明快な整理がコミュニティで評価されている。</p>
+    <p>「とにかくAIで速く作る」に偏りがちな現場で、UXの品質を守るためのディレクション観点を提供する。発注者へのUX提案の論拠としても使いやすい。</p>
+    <p><a href="https://qiita.com/RisaMoriya/items/845bb7cef73bd298a1b5">出典：Qiita / RisaMoriya</a></p>
+  </li>
+  <li>
+    <p><strong>mct note「AIで素早く質の高いUIは作れるか？を試してみました」</strong></p>
+    <p>株式会社mctが、複数のAI UIジェネレーターに同じ要件を与えてUIを生成し、品質・速さ・実用性を比較実験した記事をnoteで公開した。生成速度は劇的に速いが、デザイン一貫性・アクセシビリティ・細部の調整で人の手が必要な箇所も明確になったという。「任せられる領域」と「人が見なければいけない領域」が実験で浮き彫りになっている。</p>
+    <p>AI UIの「使える品質」の現在地を知ることは、制作見積の根拠づくりに直結する。どこまでAIに任せ、どこから人手をかけるかの線引きをディレクターが決めるための材料になる。</p>
+    <p><a href="https://note.com/mctinc/n/n4866dc317f9d">出典：mct / note</a></p>
+  </li>
+  <li>
+    <p><strong>BrainPad Doors DX「生成AIアプリケーションのUI/UX——今後どのような設計の視点が必要？」</strong></p>
+    <p>BrainPadのメディアDoors DXが、生成AI機能を搭載するWebアプリケーションのUI/UX設計で求められる新しい視点を整理した。AIの「不確かな出力」をユーザーが受け取る際の期待管理・エラー表現・信頼醸成デザインが従来にない課題として浮上していると論じる。チャットUIに限らず、あらゆるAI機能搭載サービスに共通する設計課題を整理している。</p>
+    <p>AI機能を搭載したWebサービスを受託・企画する機会が増える中、UI/UXの要件定義で新たな論点を押さえておく必要がある。ディレクターがAI組み込み案件の要件定義フェーズで使える視点だ。</p>
+    <p><a href="https://www.brainpad.co.jp/doors/contents/generativeai_ui_ux/">出典：BrainPad Doors DX</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>Build Fast With AI「AI News Today July 12, 2026: 15 Biggest Stories」</strong></p>
+    <p>Build Fast With AIが2026年7月12日のAI業界ビッグニュース15件を速報した。Apple対OpenAI商標訴訟（元Apple社員400人超が渡航）、GPT-5.6の一般提供開始（7/9）、Meta Museの画像生成モデル公開（7/7）、Google Gemini 3.5 Proの7/17 GA予告などが含まれる。Claude Fable 5がWebDev Arena首位（1653 Elo）であることも触れられている。</p>
+    <p>基盤モデルの提供体制変化は、Web制作で使うAIツールの裏側に直接影響する。ディレクターが中長期のツール選定・体制設計をする際の外部環境把握に使える今日の速報源。</p>
+    <p><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026">出典：Build Fast With AI</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Medium「AI NEWS: Week of July 6 to July 12, 2026」（David Akpovi）</strong></p>
+    <p>MediumのDavid Akpovi氏が、2026年7月6〜12日のAIニュース週間まとめを公開した。Claude Fable 5の輸出規制からの復帰（7/1）、GPT-5.6一般提供（7/9）、Gemini 3.5 Proの7/17 GA予告を始め、AIエージェントのブラウザ操作対応が各社で進んだ1週間を総括している。コンパクトにまとまっており英語速報として使いやすい。</p>
+    <p>週単位でAI業界を追うことで、ツール選定と体制設計に影響する変化を早期にキャッチできる。日本語情報と合わせて確認できる海外速報として活用できる。</p>
+    <p><a href="https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55">出典：Medium / David Akpovi</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】LinkedIn「AI Prototyping with Figma Make vs Cursor: A Quick Reflection」（Jordan Putnam）</strong></p>
+    <p>LinkedInでJordan Putnam氏が、Figma MakeとCursorを同じプロトタイプ課題に使い比べた短評を投稿した。Figma MakeはデザインシステムとのFigma整合性が高く、CursorはMCP経由のFigma連携でコードとデザインを行き来できる利点がある。両者は競合より補完関係にあるというのが結論で、実務的な知見がコンパクトに得られる。</p>
+    <p>プロトタイピングツールを「デザインかコードか」の二択で選ぶ時代が終わりつつある。ディレクターが制作フローの中でツールをどう組み合わせるか設計する際の参考になる。</p>
+    <p><a href="https://www.linkedin.com/posts/jordan-putnam26_cursor-mcp-figma-activity-7348539993918783488-8wwn">出典：LinkedIn / Jordan Putnam</a></p>
+  </li>
+  <li>
+    <p><strong>ortemtech「Google Stitch vs v0 vs Figma AI 2026: Tested on Real Production UI Tasks」</strong></p>
+    <p>ortemtechが、Google Stitch・v0・Figma AI（Figma Make）を実際のプロダクションUIタスクで使い比較した2026年最新検証記事を公開した。Stitchはビジュアル探索に強く、v0はコンポーネント生成、Figma AIはデザインシステム整合に強みがあり、用途ごとの使い分けがはっきりしている。「Stitch→探索、v0→コンポーネント、Lovable/Cursor→フルスタック組み立て」という推奨フローも示す。</p>
+    <p>ツール横断で「どれが最強か」ではなく「どの工程に何を使うか」という問い方が実務的だ。ディレクターが制作標準を整備し、ツールの組み合わせ方針を決める参考になる。</p>
+    <p><a href="https://ortemtech.com/blog/ai-design-tools-comparison-2026-figma-v0-google-stitch/">出典：ortemtech</a></p>
+  </li>
+  <li>
+    <p><strong>AI Builder Club「Vibe Design: The AI UI Workflow That Replaces Figma-First」</strong></p>
+    <p>AI Builder Clubが、Figmaで画面を作ってから実装に渡すという従来の「Figma-first」フローに代わる「Vibe Design（プロンプト→コード→確認）」ワークフローを解説した。CursorにV0のモデルを組み込み、プロンプトからUIコードを生成して確認するサイクルを先に回すアプローチだ。Figmaはドキュメントや仕様書として使う位置づけへ変わり、制作順序が逆転する。</p>
+    <p>デザイン→実装の直列フローが崩れると、ディレクション・確認・修正のタイミングも変わる。現行の制作フローのどこにVibe Designが入るか、ディレクターが自社に引きつけて検討できる。</p>
+    <p><a href="https://www.aibuilderclub.com/blog/vibe-design-ai-ui-workflow">出典：AI Builder Club</a></p>
+  </li>
+  <li>
+    <p><strong>Headway「Building Prototypes Faster: AI Tools for Designers（Figma Make, Cursor &amp; Claude Code）」</strong></p>
+    <p>ソフトウェアエージェンシーのHeadwayが、デザイナー向けに3つのAIプロトタイピングツール（Figma Make・Cursor・Claude Code）を実プロジェクトで使った成果を公開した。Figma MakeはUI提案が直感的、CursorはMCP経由でFigmaとコードを行き来でき、Claude Codeは複雑なロジックの実装に強いという棲み分けを示す。コードを書かないデザイナーでも使えるツールの可能性を実務から探る内容。</p>
+    <p>制作プロセスに新ツールを追加する際、学習コストと効果のバランスを現場レポートで把握できる。ディレクターがツール研修と体制導入の優先度を決める際の参考になる。</p>
+    <p><a href="https://www.headway.io/blog/building-prototypes-faster-with-ai-tools-for-designers">出典：Headway Blog</a></p>
+  </li>
+  <li>
+    <p><strong>The Crit「Best AI Coding Tools for Designers 2026: Figma to Code, v0 &amp; Codex」</strong></p>
+    <p>デザイナー向けリソースサイトThe Critが、デザイナーに特化したAIコーディングツールをFigmatoCode・v0・OpenAI Codexなどで横断比較した。「コードを書かずにデザインを実装する」という観点でツールを評価し、デザイナーが独立して実装に踏み込める現実的な方法論を示す。デザイナーが得意な視点での評価が、エンジニア目線のランキングと異なる。</p>
+    <p>デザイナーが実装に踏み込める範囲が広がると、制作チームの体制と役割分担の設計が変わる。見積の工程分解やメンバーの役割定義を見直す際の根拠になる。</p>
+    <p><a href="https://thecrit.co/resources/best-ai-coding-tools-designers-2026">出典：The Crit</a></p>
+  </li>
+  <li>
+    <p><strong>Builder.io「Best AI Coding Tools for Developers in 2026」</strong></p>
+    <p>Builder.ioが2026年版のAIコーディングツール選定ガイドを公開した。Claude Code・Cursor・GitHub Copilot・Replit Agentなどを比較し、「何を作るか」×「誰が使うか」でツールを選ぶ軸を提示している。AIコーディングはもはや特定エンジニアの専用ツールではなく、チームの標準装備として位置づける論調だ。フロントエンドからフルスタックまでカバー。</p>
+    <p>AIコーディングツールの「チーム標準化」という視点は、ディレクターが制作環境を整備する際に直結する。ライセンス費・導入教育・品質基準の3点セットで検討できる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：Builder.io Blog</a></p>
+  </li>
+  <li>
+    <p><strong>Design For Online「The Best AI Models So Far in 2026」</strong></p>
+    <p>Design for Onlineが2026年前半時点で最も有用なAIモデルをデザイン・Web制作観点でまとめた。Claude Fable 5（WebDev Arena 1位・1653 Elo、2位との差92ポイントで過去最大）、GPT-5.6 Sol（日常作業・知識仕事最強）、Gemini 3.5 Pro（マルチモーダル、7/17 GA予定）の3強を軸に、用途別選択肢を整理している。</p>
+    <p>どのAIモデルをどの工程で使うか、という選定は制作コストと品質に直結する。ディレクターが制作標準のモデル選択を整理する指針になる。</p>
+    <p><a href="https://designforonline.com/the-best-ai-models-so-far-in-2026/">出典：Design For Online</a></p>
+  </li>
+  <li>
+    <p><strong>LM Council「AI Model Benchmarks July 2026: GPT-5.5, Claude Opus 4.8, Gemini 3, Grok 4 比較」</strong></p>
+    <p>LM Councilが2026年7月時点のAIモデルベンチマークをGPT-5.5・Claude Opus 4.8・Gemini 3・Grok 4で横断比較した。WebDev Arenaではオープンコードが開発ツール首位、Claude Fable 5が最高Eloで独走。コーディング性能の序列が制作ツール選定に与える影響を定点観測できる貴重なデータソースだ。</p>
+    <p>ツールの中に入っているモデルの性能差が、制作アウトプットの品質差につながる。ディレクターがツール・モデル選定の根拠として参照できるデータ基盤だ。</p>
+    <p><a href="https://lmcouncil.ai/benchmarks">出典：LM Council</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p>最も読むべきは <a href="https://ortemtech.com/blog/ai-design-tools-comparison-2026-figma-v0-google-stitch/">ortemtech「Google Stitch vs v0 vs Figma AI 2026: Tested on Real Production UI Tasks」</a>。Google Stitch・v0・Figma Makeを同じ実務課題で比較し「ツールを1つ選ぶ」のではなく「工程ごとに使い分ける」という実践的結論を出しており、制作フロー標準化を考えるディレクターに今すぐ使える地図になるため。</p>]]></content:encoded>
+    </item>
+    <item>
       <title>【AI週間ベスト】2026年7月11日（Webディレクター向け）</title>
       <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
       <guid isPermaLink="false">2026-07-11-weekly</guid>
