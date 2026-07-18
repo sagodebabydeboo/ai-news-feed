@@ -7,6 +7,278 @@
     <language>ja</language>
     <!-- ここから下に各回の <item> が自動で追記されます -->
     <item>
+      <title>【AI週間ベスト】2026年7月18日（Webディレクター向け）</title>
+      <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+      <guid isPermaLink="false">2026-07-18-weekly</guid>
+      <pubDate>Sat, 18 Jul 2026 20:07:19 +0000</pubDate>
+      <description><![CDATA[<h2>【AI週間ベスト】2026年7月18日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>ニジボックス「Web制作を効率化！工程別に使えるAIツール9選【2026年最新版】」</strong></p>
+    <p>ニジボックスが、Web制作の工程別に使えるAIツール9本を整理したガイドを更新した。要件定義・デザイン・コーディング・テストといった各フェーズごとに、どのツールがどの作業を肩代わりできるかをマッピングしている。v0やCursorなど実装系だけでなく、企画・設計フェーズのAI活用まで横断的に俯瞰できる構成が特徴だ。工程単位で導入効果を見積もれるよう整理されている点が実務的。</p>
+    <p>工程別にAIツールを当てはめる視点は、制作フローのどこを自動化・効率化するかの設計に直結する。ディレクターが体制図と見積の粒度を見直す起点になる。</p>
+    <p><a href="https://blog.nijibox.jp/article/ai_frontend_tools/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>レバテックLAB「サイト構築からデプロイまで。AIが変えるフロントエンド開発」</strong></p>
+    <p>レバテックLABが、AIがサイト構築からデプロイまでのフロントエンド開発をどう変えつつあるかを整理した。自然言語での指示からUIコードを生成し、そのままデプロイまで到達できる環境が現実になりつつある実態を解説する。一方でAIは構造的な一貫性を保証しないため、設計レビューと構造理解の重要性はむしろ増すと指摘している。速度向上と品質担保の綱引きを冷静に扱う内容だ。</p>
+    <p>「作る速度」が上がるほど、レビューと設計判断がボトルネックになる。ディレクターが品質管理工程を工程表に明示的に組み込む必要性を裏づける。</p>
+    <p><a href="https://levtech.jp/media/article/column/detail_615/">出典：レバテックLAB</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita「2026年フロントエンド技術ガイド：React 19・Svelte 5・Tailwind v4 以降の世界」（YushiYamamoto）</strong></p>
+    <p>QiitaでReact 19・Svelte 5・Tailwind v4以降のフロントエンド技術動向を俯瞰する記事が公開された。Tailwind v4はRustエンジン採用と設定ファイル不要の「ゼロコンフィグ」へ、React CompilerによりuseMemo等の手動メモ化がレガシー化するなど、前提の書き換わりを整理している。AI連携を織り込んだ技術スタックの現在地を1本で確認できる。開発の「標準」が急速に更新されている実態がよく分かる。</p>
+    <p>技術スタックの前提が変わると、見積・工数・採用スキルの基準も変わる。ディレクターがエンジニアと共通言語で技術選定を議論する下地になる。</p>
+    <p><a href="https://qiita.com/YushiYamamoto/items/9845784d14428db90fce">出典：Qiita / YushiYamamoto</a></p>
+  </li>
+  <li>
+    <p><strong>LIVECAST MAGAZINE「UIデザインにおけるAI活用：プロトタイプからコードまで」</strong></p>
+    <p>LIVECAST MAGAZINEが、UIデザインでプロトタイプからコードまでをAIでつなぐワークフローを解説した。Figma Makeやv0など、デザインを実装可能なコードへ変換するツールの位置づけを整理している。デザインと実装の間の手渡し（ハンドオフ）が縮まりつつある状況を、実務目線でまとめた内容だ。どこまでAIに任せ、どこを人が詰めるかの線引きにも触れている。</p>
+    <p>デザイン→実装のハンドオフはWeb制作で最も摩擦の大きい工程の一つ。ここが縮むと体制・スケジュールの組み方が変わり、ディレクションの勘所も移動する。</p>
+    <p><a href="https://www.livecast.co.jp/magazine/ui-design-ai-prototype-to-code/">出典：LIVECAST MAGAZINE</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で使われる生成AIツールを網羅したガイドを更新した。ワイヤーフレーム生成、UI案の発散、コピー生成など用途別に主要ツールを整理している。デザインツールが「描くツール」から「構築を加速するプラットフォーム」へ移行している潮流を踏まえた選定軸を提示する。導入時のコストや学習負荷にも言及がある。</p>
+    <p>UI/UX工程のツール選定は、デザイナーの生産性と制作単価に直結する。ディレクターが提案フェーズでの制作スピードと見積を組み立てる参考になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>Think IT / Gen AI Times「生成AIの事例トレンド：『試用』から『本格的な組み込み』のフェーズへ」</strong></p>
+    <p>Think ITのGen AI Timesが、企業の生成AI活用が「試用」から業務への「本格的な組み込み」へ移行しているトレンドを整理した。PoC止まりだった導入が、実業務のワークフローに定着する段階に入ったという構造的変化を論じている。単発の効率化ではなく、業務プロセスそのものを再設計する動きが広がっている点を指摘する。組織的な定着に必要な運用設計にも触れている。</p>
+    <p>制作会社にとってAIは「試す」段階から「工程に組み込む」段階へ移った。ディレクターが自社の制作プロセス再設計を検討する上での基準になる。</p>
+    <p><a href="https://thinkit.co.jp/article/39067">出典：Think IT / Gen AI Times</a></p>
+  </li>
+  <li>
+    <p><strong>ICS MEDIA「インタラクションに特化したアニメーションツールRiveの魅力」</strong></p>
+    <p>ICS MEDIAが、アニメーション・インタラクション・イラストを1つのツールで完結できるRiveの魅力を解説した。JavaScriptの知識がなくても、クリックやホバーを契機にしたインタラクションを作り込める点が強みだ。ステートマシンによる状態管理で、実装に近い形でインタラクションを設計・書き出しできる。デザイナーと実装の間の表現ギャップを埋めるツールとして紹介している。</p>
+    <p>凝ったマイクロインタラクションは差別化要素になる一方、実装コストが読みにくい領域だ。Riveのようなツールの理解は、演出提案と見積の精度向上につながる。</p>
+    <p><a href="https://ics.media/entry/241206/">出典：ICS MEDIA</a></p>
+  </li>
+  <li>
+    <p><strong>コリス「AIがWeb制作に与えている影響、仕事を奪うのではなくどう変化するのか」</strong></p>
+    <p>コリスが、AIがWeb制作の仕事を「奪う」のではなく、どう変化させているかを論じた記事を公開した。ChatGPTやClaude、GeminiなどがCSS変数を活かしたカスタマイズ可能な設計に役立つ具体例を示している。定型作業の自動化が進む一方で、要件整理や品質判断など人が担う価値が明確化していると整理する。過度な脅威論でも礼賛でもない現実的な視点が持ち味だ。</p>
+    <p>「AIで何が変わり、人は何を担うか」の整理は、制作会社の役割定義と提案価値の再設計に直結する。ディレクターがチームの不安に答える論拠にもなる。</p>
+    <p><a href="https://coliss.com/articles/build-websites/operation/work/ai-has-a-very-high-potential-to-change-web-work.html">出典：コリス</a></p>
+  </li>
+  <li>
+    <p><strong>テックファーム「商品企画・開発やコンテンツ制作に生成AIを活用している企業事例10選」</strong></p>
+    <p>テックファームが、商品企画・開発やコンテンツ制作に生成AIを活用する企業事例10件を整理した。バナー制作でAIエージェントに案出しとバリエーション生成を任せ、制作時間を5分の1に削減しつつCTRを向上させた事例などを紹介している。人が最終レビューを担い、数値・固有名詞・法的表現をダブルチェックする運用の重要性にも触れる。実成果ベースで語られている点が参考になる。</p>
+    <p>クリエイティブ量産×人のレビューという分業は、制作会社が提案できる現実的なAI活用モデルだ。ディレクターが施策の体制と品質担保フローを設計する好例になる。</p>
+    <p><a href="https://www.techfirm.co.jp/blog/product-planning-ai-case-studies">出典：テックファーム</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai「2026年7月最新 生成AIトレンド完全ガイド｜技術動向・活用事例・ビジネスへの影響」</strong></p>
+    <p>genai-aiが、2026年7月時点の生成AIトレンドを技術動向・活用事例・ビジネス影響の観点で整理した。AIエージェントの実用化が最大の潮流で、Claude Code・Codex・Copilot Agentなど目的指示で複数ステップを自律実行するツールが出そろったと総括する。動画生成も1080p・長尺・一貫キャラが実現し、CM／SNS動画の制作コスト削減水準に達したと指摘する。制作現場に効く動向を横断的に俯瞰できる。</p>
+    <p>自律型AIエージェントと実用的な動画生成は、制作の見積と体制に直接影響する。ディレクターが半期の技術前提をアップデートするのに適したまとめだ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-generative-ai-trends/">出典：genai-ai</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>TechCrunch「Figma adds code layers, support for animations, more AI features」（Config 2026）</strong></p>
+    <p>TechCrunchが、FigmaがConfig 2026でコードレイヤー、アニメーション対応、追加のAI機能を投入したと報じた。新機能「Figma Motion」はタイムラインとキーフレームでUIアニメーションをFigma内で完結でき、コンポーネント単位で再利用できる。作成したモーションはDev Modeで検査し、CSS・React・SVG・MP4などに書き出せる。デザインと実装の境界を溶かす「Code Layers」も追加された。</p>
+    <p>アニメーション仕様をデザインツール内で定義し実装用に書き出せると、演出のハンドオフが激減する。ディレクターがモーション込みの見積・工程を組み直す契機になる。</p>
+    <p><a href="https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/">出典：TechCrunch</a></p>
+  </li>
+  <li>
+    <p><strong>Figma Release Notes（Releasebot 2026年7月版）：Motion・3D変形・シェーダー・エージェント拡張</strong></p>
+    <p>Figmaの7月版リリースノートまとめによると、Motionに加え3D変形やシェーダー、Figmaエージェントの適用範囲拡張が進んだ。3D変形はモーションと組み合わせて現実的な奥行きと動きを表現でき、シェーダーは自然言語指示でエージェントが生成する。エージェントはFigJamやSlidesにも広がり、生成プラグインや再利用可能なワークフローも拡充された。単なる作図ツールから制作プラットフォームへの進化が加速している。</p>
+    <p>表現手段の拡張は提案できるビジュアルの幅を広げる一方、実装コストの見極めが必要になる。ディレクターが新機能の実務投入可否を判断する材料になる。</p>
+    <p><a href="https://releasebot.io/updates/figma">出典：Releasebot（Figma Release Notes）</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket「AI dev tool power rankings & comparison [July 2026]」</strong></p>
+    <p>LogRocketが2026年7月のAI開発ツール勢力図を更新した。今月の差別化要因は「コンピュータ利用（computer use）」で、Claude CodeがCLI型で唯一ネイティブ対応し、ターミナルからブラウザ操作や開発ツール起動まで行えると評価している。SpaceXによるCursor（Anysphere）の600億ドル買収という業界再編も取り上げている。ツール選定の前提が短期間で動いている実態を整理している。</p>
+    <p>コーディング支援ツールの実力差と資本再編は、制作会社のツール標準化とコスト計画に影響する。ディレクターが開発チームの環境選定を議論する参考になる。</p>
+    <p><a href="https://blog.logrocket.com/ai-dev-tool-power-rankings/">出典：LogRocket</a></p>
+  </li>
+  <li>
+    <p><strong>Smashing Magazine「Human Strategy In An AI-Accelerated Workflow」</strong></p>
+    <p>Smashing Magazineが、AIで加速したワークフローにおける人間の戦略的役割を論じた。AIはレイアウト案・コピー・コンポーネント構造を数秒で大量生成でき、McKinseyは創造・デザイン作業の時間を最大70%削減しうると見積もる。だからこそ、方向づけ・取捨選択・品質判断という人の戦略的判断が価値の中心になると説く。量産の先で人が担うべき役割を明快に示す内容だ。</p>
+    <p>AIが量を担うほど、ディレクターの「選ぶ・方向づける」役割の比重が増す。制作フローにおける人の付加価値を再定義する論拠になる。</p>
+    <p><a href="https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/">出典：Smashing Magazine</a></p>
+  </li>
+  <li>
+    <p><strong>Builder.io「Best AI Coding Tools for Developers in 2026」（v0のFigma→React変換）</strong></p>
+    <p>Builder.ioが2026年の主要AIコーディングツールを比較・整理した。v0はFigmaデザインを本番相当のReactコンポーネントへ即座に変換し、デザインと実装のハンドオフを加速するツールとして位置づけられている。設計から実装への橋渡しを自動化する「design-to-code」の実用度が高まっている状況を示す。ツールごとの得意領域と適材適所の判断軸を提供している。</p>
+    <p>Figma→Reactの自動変換が実用域に入ると、実装初期工数の見積前提が変わる。ディレクターがデザインと実装の分担・スケジュールを再設計する材料になる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：Builder.io</a></p>
+  </li>
+  <li>
+    <p><strong>eesel AI「9 best frontend AI tools for developers in 2026 (tested)」</strong></p>
+    <p>eesel AIが、フロントエンド開発者向けAIツール9本を実際に試して比較した。v0によるUI生成、CursorのAIコードエディタなど、実装工程を加速する主要ツールを用途別に評価している。「動くUI」に素早く到達できる裾野の広がりを実測ベースで示す内容だ。各ツールの得意・不得意を踏まえた選定指針を提示している。</p>
+    <p>実装系AIツールの実力を横並びで把握できると、制作体制やライセンス費の試算がしやすい。ディレクターが技術選定を開発メンバーと詰める土台になる。</p>
+    <p><a href="https://www.eesel.ai/blog/frontend-ai-tools-developers">出典：eesel AI</a></p>
+  </li>
+  <li>
+    <p><strong>Banani「Best Prototyping Tools in 2026 are AI-powered」</strong></p>
+    <p>Bananiが、2026年のプロトタイピングツール上位10本を「AIパワード」を軸に整理した。テキストからの高忠実度UI生成や、ブレストの要点をインタラクティブなUI画面へ変換するMiro AIなどを取り上げている。プロトタイピングが「手で描く」から「指示して生成する」工程へ移行している潮流を示す。各ツールの用途別の強みを比較している。</p>
+    <p>高速プロトタイピングは提案スピードと合意形成の速度を左右する。ディレクターが企画・提案フェーズのツール選定を検討する参考になる。</p>
+    <p><a href="https://www.banani.co/blog/best-ai-prototyping-tools">出典：Banani</a></p>
+  </li>
+  <li>
+    <p><strong>UXPin「Top Prototyping Tools 2026年版」</strong></p>
+    <p>UXPinが2026年版のプロトタイピングツール5選を公開した。AIによる画面生成やコード連携を備えたツールが主流になりつつある状況を整理している。デザインからインタラクティブな検証までを短時間で回す実務フローを提示する内容だ。チーム協業や開発連携の観点での選定軸も示している。</p>
+    <p>検証を素早く回せるプロトタイピング環境は、手戻りの削減と品質担保に効く。ディレクターがUX検証工程を工程表に組み込む判断材料になる。</p>
+    <p><a href="https://www.uxpin.com/studio/blog/top-prototyping-tools/">出典：UXPin</a></p>
+  </li>
+  <li>
+    <p><strong>ChatGPT AI Hub「AI Coding Agents July 2026: What Developers Must Know」（7月16日の同時アップデート）</strong></p>
+    <p>ChatGPT AI Hubが、2026年7月16日に主要ベンダーがコーディングエージェントを同時強化した動きを解説した。OpenAIのGPT-5.6系のGA、AnthropicのClaude Sonnet 5とFable 5、GoogleのGemini 3.1 Pro（256万トークン級コンテキスト）などが相次いだ。新世代エージェントは実リポジトリに接地し、数百ファイル規模の変更をトレーサビリティ付きで実行できると整理する。一発補完から追跡可能な変更へと質が変わっている点を強調している。</p>
+    <p>エージェントの実力が数百ファイル規模に達すると、開発の見積単位と品質管理の設計が変わる。ディレクターが半期の開発前提を更新すべき重要動向だ。</p>
+    <p><a href="https://chatgptaihub.com/the-big-ai-coding-agents-story-what-july-16-s-news-means-for-developers/">出典：ChatGPT AI Hub</a></p>
+  </li>
+  <li>
+    <p><strong>Agensi「Best AI Coding Tools July 2026: Post-GPT-5.6 and Fable 5 Rankings」</strong></p>
+    <p>Agensiが、GPT-5.6とFable 5の登場を織り込んだ2026年7月時点のAIコーディングツール順位を整理した。Fable 5はWebDev Arenaで最高スコア級を記録し、Web制作系タスクでの実力が高いと評価している。Claude CodeやWindsurfなど、価格と機能のバランスを踏まえた選定軸を提示する。モデル世代交代がツール勢力図に与える影響を追った内容だ。</p>
+    <p>Web制作タスクに強いモデル・ツールの把握は、実装効率と品質の見積に直結する。ディレクターが開発環境の標準を見直す判断材料になる。</p>
+    <p><a href="https://www.agensi.io/learn/best-ai-coding-tools-july-2026">出典：Agensi</a></p>
+  </li>
+</ol>
+
+<h3>今週の1本</h3>
+<p><strong><a href="https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/">Figma、Config 2026でMotion・Code Layers・AI機能を追加（TechCrunch）</a></strong></p>
+<p>デザインと実装の境界を溶かす構造的な変化で、Webディレクションの工程設計に最も長く効く一本だからだ。アニメーション仕様をFigma内で定義してCSS／React／SVGへ書き出せるようになると、これまで曖昧だったモーションのハンドオフと見積が明確化する。デザイン→実装の分担・スケジュール・品質管理を組み直す起点として、今週最も押さえておきたいニュース。</p>]]></description>
+      <content:encoded><![CDATA[<h2>【AI週間ベスト】2026年7月18日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>ニジボックス「Web制作を効率化！工程別に使えるAIツール9選【2026年最新版】」</strong></p>
+    <p>ニジボックスが、Web制作の工程別に使えるAIツール9本を整理したガイドを更新した。要件定義・デザイン・コーディング・テストといった各フェーズごとに、どのツールがどの作業を肩代わりできるかをマッピングしている。v0やCursorなど実装系だけでなく、企画・設計フェーズのAI活用まで横断的に俯瞰できる構成が特徴だ。工程単位で導入効果を見積もれるよう整理されている点が実務的。</p>
+    <p>工程別にAIツールを当てはめる視点は、制作フローのどこを自動化・効率化するかの設計に直結する。ディレクターが体制図と見積の粒度を見直す起点になる。</p>
+    <p><a href="https://blog.nijibox.jp/article/ai_frontend_tools/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>レバテックLAB「サイト構築からデプロイまで。AIが変えるフロントエンド開発」</strong></p>
+    <p>レバテックLABが、AIがサイト構築からデプロイまでのフロントエンド開発をどう変えつつあるかを整理した。自然言語での指示からUIコードを生成し、そのままデプロイまで到達できる環境が現実になりつつある実態を解説する。一方でAIは構造的な一貫性を保証しないため、設計レビューと構造理解の重要性はむしろ増すと指摘している。速度向上と品質担保の綱引きを冷静に扱う内容だ。</p>
+    <p>「作る速度」が上がるほど、レビューと設計判断がボトルネックになる。ディレクターが品質管理工程を工程表に明示的に組み込む必要性を裏づける。</p>
+    <p><a href="https://levtech.jp/media/article/column/detail_615/">出典：レバテックLAB</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita「2026年フロントエンド技術ガイド：React 19・Svelte 5・Tailwind v4 以降の世界」（YushiYamamoto）</strong></p>
+    <p>QiitaでReact 19・Svelte 5・Tailwind v4以降のフロントエンド技術動向を俯瞰する記事が公開された。Tailwind v4はRustエンジン採用と設定ファイル不要の「ゼロコンフィグ」へ、React CompilerによりuseMemo等の手動メモ化がレガシー化するなど、前提の書き換わりを整理している。AI連携を織り込んだ技術スタックの現在地を1本で確認できる。開発の「標準」が急速に更新されている実態がよく分かる。</p>
+    <p>技術スタックの前提が変わると、見積・工数・採用スキルの基準も変わる。ディレクターがエンジニアと共通言語で技術選定を議論する下地になる。</p>
+    <p><a href="https://qiita.com/YushiYamamoto/items/9845784d14428db90fce">出典：Qiita / YushiYamamoto</a></p>
+  </li>
+  <li>
+    <p><strong>LIVECAST MAGAZINE「UIデザインにおけるAI活用：プロトタイプからコードまで」</strong></p>
+    <p>LIVECAST MAGAZINEが、UIデザインでプロトタイプからコードまでをAIでつなぐワークフローを解説した。Figma Makeやv0など、デザインを実装可能なコードへ変換するツールの位置づけを整理している。デザインと実装の間の手渡し（ハンドオフ）が縮まりつつある状況を、実務目線でまとめた内容だ。どこまでAIに任せ、どこを人が詰めるかの線引きにも触れている。</p>
+    <p>デザイン→実装のハンドオフはWeb制作で最も摩擦の大きい工程の一つ。ここが縮むと体制・スケジュールの組み方が変わり、ディレクションの勘所も移動する。</p>
+    <p><a href="https://www.livecast.co.jp/magazine/ui-design-ai-prototype-to-code/">出典：LIVECAST MAGAZINE</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で使われる生成AIツールを網羅したガイドを更新した。ワイヤーフレーム生成、UI案の発散、コピー生成など用途別に主要ツールを整理している。デザインツールが「描くツール」から「構築を加速するプラットフォーム」へ移行している潮流を踏まえた選定軸を提示する。導入時のコストや学習負荷にも言及がある。</p>
+    <p>UI/UX工程のツール選定は、デザイナーの生産性と制作単価に直結する。ディレクターが提案フェーズでの制作スピードと見積を組み立てる参考になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>Think IT / Gen AI Times「生成AIの事例トレンド：『試用』から『本格的な組み込み』のフェーズへ」</strong></p>
+    <p>Think ITのGen AI Timesが、企業の生成AI活用が「試用」から業務への「本格的な組み込み」へ移行しているトレンドを整理した。PoC止まりだった導入が、実業務のワークフローに定着する段階に入ったという構造的変化を論じている。単発の効率化ではなく、業務プロセスそのものを再設計する動きが広がっている点を指摘する。組織的な定着に必要な運用設計にも触れている。</p>
+    <p>制作会社にとってAIは「試す」段階から「工程に組み込む」段階へ移った。ディレクターが自社の制作プロセス再設計を検討する上での基準になる。</p>
+    <p><a href="https://thinkit.co.jp/article/39067">出典：Think IT / Gen AI Times</a></p>
+  </li>
+  <li>
+    <p><strong>ICS MEDIA「インタラクションに特化したアニメーションツールRiveの魅力」</strong></p>
+    <p>ICS MEDIAが、アニメーション・インタラクション・イラストを1つのツールで完結できるRiveの魅力を解説した。JavaScriptの知識がなくても、クリックやホバーを契機にしたインタラクションを作り込める点が強みだ。ステートマシンによる状態管理で、実装に近い形でインタラクションを設計・書き出しできる。デザイナーと実装の間の表現ギャップを埋めるツールとして紹介している。</p>
+    <p>凝ったマイクロインタラクションは差別化要素になる一方、実装コストが読みにくい領域だ。Riveのようなツールの理解は、演出提案と見積の精度向上につながる。</p>
+    <p><a href="https://ics.media/entry/241206/">出典：ICS MEDIA</a></p>
+  </li>
+  <li>
+    <p><strong>コリス「AIがWeb制作に与えている影響、仕事を奪うのではなくどう変化するのか」</strong></p>
+    <p>コリスが、AIがWeb制作の仕事を「奪う」のではなく、どう変化させているかを論じた記事を公開した。ChatGPTやClaude、GeminiなどがCSS変数を活かしたカスタマイズ可能な設計に役立つ具体例を示している。定型作業の自動化が進む一方で、要件整理や品質判断など人が担う価値が明確化していると整理する。過度な脅威論でも礼賛でもない現実的な視点が持ち味だ。</p>
+    <p>「AIで何が変わり、人は何を担うか」の整理は、制作会社の役割定義と提案価値の再設計に直結する。ディレクターがチームの不安に答える論拠にもなる。</p>
+    <p><a href="https://coliss.com/articles/build-websites/operation/work/ai-has-a-very-high-potential-to-change-web-work.html">出典：コリス</a></p>
+  </li>
+  <li>
+    <p><strong>テックファーム「商品企画・開発やコンテンツ制作に生成AIを活用している企業事例10選」</strong></p>
+    <p>テックファームが、商品企画・開発やコンテンツ制作に生成AIを活用する企業事例10件を整理した。バナー制作でAIエージェントに案出しとバリエーション生成を任せ、制作時間を5分の1に削減しつつCTRを向上させた事例などを紹介している。人が最終レビューを担い、数値・固有名詞・法的表現をダブルチェックする運用の重要性にも触れる。実成果ベースで語られている点が参考になる。</p>
+    <p>クリエイティブ量産×人のレビューという分業は、制作会社が提案できる現実的なAI活用モデルだ。ディレクターが施策の体制と品質担保フローを設計する好例になる。</p>
+    <p><a href="https://www.techfirm.co.jp/blog/product-planning-ai-case-studies">出典：テックファーム</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai「2026年7月最新 生成AIトレンド完全ガイド｜技術動向・活用事例・ビジネスへの影響」</strong></p>
+    <p>genai-aiが、2026年7月時点の生成AIトレンドを技術動向・活用事例・ビジネス影響の観点で整理した。AIエージェントの実用化が最大の潮流で、Claude Code・Codex・Copilot Agentなど目的指示で複数ステップを自律実行するツールが出そろったと総括する。動画生成も1080p・長尺・一貫キャラが実現し、CM／SNS動画の制作コスト削減水準に達したと指摘する。制作現場に効く動向を横断的に俯瞰できる。</p>
+    <p>自律型AIエージェントと実用的な動画生成は、制作の見積と体制に直接影響する。ディレクターが半期の技術前提をアップデートするのに適したまとめだ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-generative-ai-trends/">出典：genai-ai</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>TechCrunch「Figma adds code layers, support for animations, more AI features」（Config 2026）</strong></p>
+    <p>TechCrunchが、FigmaがConfig 2026でコードレイヤー、アニメーション対応、追加のAI機能を投入したと報じた。新機能「Figma Motion」はタイムラインとキーフレームでUIアニメーションをFigma内で完結でき、コンポーネント単位で再利用できる。作成したモーションはDev Modeで検査し、CSS・React・SVG・MP4などに書き出せる。デザインと実装の境界を溶かす「Code Layers」も追加された。</p>
+    <p>アニメーション仕様をデザインツール内で定義し実装用に書き出せると、演出のハンドオフが激減する。ディレクターがモーション込みの見積・工程を組み直す契機になる。</p>
+    <p><a href="https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/">出典：TechCrunch</a></p>
+  </li>
+  <li>
+    <p><strong>Figma Release Notes（Releasebot 2026年7月版）：Motion・3D変形・シェーダー・エージェント拡張</strong></p>
+    <p>Figmaの7月版リリースノートまとめによると、Motionに加え3D変形やシェーダー、Figmaエージェントの適用範囲拡張が進んだ。3D変形はモーションと組み合わせて現実的な奥行きと動きを表現でき、シェーダーは自然言語指示でエージェントが生成する。エージェントはFigJamやSlidesにも広がり、生成プラグインや再利用可能なワークフローも拡充された。単なる作図ツールから制作プラットフォームへの進化が加速している。</p>
+    <p>表現手段の拡張は提案できるビジュアルの幅を広げる一方、実装コストの見極めが必要になる。ディレクターが新機能の実務投入可否を判断する材料になる。</p>
+    <p><a href="https://releasebot.io/updates/figma">出典：Releasebot（Figma Release Notes）</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket「AI dev tool power rankings & comparison [July 2026]」</strong></p>
+    <p>LogRocketが2026年7月のAI開発ツール勢力図を更新した。今月の差別化要因は「コンピュータ利用（computer use）」で、Claude CodeがCLI型で唯一ネイティブ対応し、ターミナルからブラウザ操作や開発ツール起動まで行えると評価している。SpaceXによるCursor（Anysphere）の600億ドル買収という業界再編も取り上げている。ツール選定の前提が短期間で動いている実態を整理している。</p>
+    <p>コーディング支援ツールの実力差と資本再編は、制作会社のツール標準化とコスト計画に影響する。ディレクターが開発チームの環境選定を議論する参考になる。</p>
+    <p><a href="https://blog.logrocket.com/ai-dev-tool-power-rankings/">出典：LogRocket</a></p>
+  </li>
+  <li>
+    <p><strong>Smashing Magazine「Human Strategy In An AI-Accelerated Workflow」</strong></p>
+    <p>Smashing Magazineが、AIで加速したワークフローにおける人間の戦略的役割を論じた。AIはレイアウト案・コピー・コンポーネント構造を数秒で大量生成でき、McKinseyは創造・デザイン作業の時間を最大70%削減しうると見積もる。だからこそ、方向づけ・取捨選択・品質判断という人の戦略的判断が価値の中心になると説く。量産の先で人が担うべき役割を明快に示す内容だ。</p>
+    <p>AIが量を担うほど、ディレクターの「選ぶ・方向づける」役割の比重が増す。制作フローにおける人の付加価値を再定義する論拠になる。</p>
+    <p><a href="https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/">出典：Smashing Magazine</a></p>
+  </li>
+  <li>
+    <p><strong>Builder.io「Best AI Coding Tools for Developers in 2026」（v0のFigma→React変換）</strong></p>
+    <p>Builder.ioが2026年の主要AIコーディングツールを比較・整理した。v0はFigmaデザインを本番相当のReactコンポーネントへ即座に変換し、デザインと実装のハンドオフを加速するツールとして位置づけられている。設計から実装への橋渡しを自動化する「design-to-code」の実用度が高まっている状況を示す。ツールごとの得意領域と適材適所の判断軸を提供している。</p>
+    <p>Figma→Reactの自動変換が実用域に入ると、実装初期工数の見積前提が変わる。ディレクターがデザインと実装の分担・スケジュールを再設計する材料になる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：Builder.io</a></p>
+  </li>
+  <li>
+    <p><strong>eesel AI「9 best frontend AI tools for developers in 2026 (tested)」</strong></p>
+    <p>eesel AIが、フロントエンド開発者向けAIツール9本を実際に試して比較した。v0によるUI生成、CursorのAIコードエディタなど、実装工程を加速する主要ツールを用途別に評価している。「動くUI」に素早く到達できる裾野の広がりを実測ベースで示す内容だ。各ツールの得意・不得意を踏まえた選定指針を提示している。</p>
+    <p>実装系AIツールの実力を横並びで把握できると、制作体制やライセンス費の試算がしやすい。ディレクターが技術選定を開発メンバーと詰める土台になる。</p>
+    <p><a href="https://www.eesel.ai/blog/frontend-ai-tools-developers">出典：eesel AI</a></p>
+  </li>
+  <li>
+    <p><strong>Banani「Best Prototyping Tools in 2026 are AI-powered」</strong></p>
+    <p>Bananiが、2026年のプロトタイピングツール上位10本を「AIパワード」を軸に整理した。テキストからの高忠実度UI生成や、ブレストの要点をインタラクティブなUI画面へ変換するMiro AIなどを取り上げている。プロトタイピングが「手で描く」から「指示して生成する」工程へ移行している潮流を示す。各ツールの用途別の強みを比較している。</p>
+    <p>高速プロトタイピングは提案スピードと合意形成の速度を左右する。ディレクターが企画・提案フェーズのツール選定を検討する参考になる。</p>
+    <p><a href="https://www.banani.co/blog/best-ai-prototyping-tools">出典：Banani</a></p>
+  </li>
+  <li>
+    <p><strong>UXPin「Top Prototyping Tools 2026年版」</strong></p>
+    <p>UXPinが2026年版のプロトタイピングツール5選を公開した。AIによる画面生成やコード連携を備えたツールが主流になりつつある状況を整理している。デザインからインタラクティブな検証までを短時間で回す実務フローを提示する内容だ。チーム協業や開発連携の観点での選定軸も示している。</p>
+    <p>検証を素早く回せるプロトタイピング環境は、手戻りの削減と品質担保に効く。ディレクターがUX検証工程を工程表に組み込む判断材料になる。</p>
+    <p><a href="https://www.uxpin.com/studio/blog/top-prototyping-tools/">出典：UXPin</a></p>
+  </li>
+  <li>
+    <p><strong>ChatGPT AI Hub「AI Coding Agents July 2026: What Developers Must Know」（7月16日の同時アップデート）</strong></p>
+    <p>ChatGPT AI Hubが、2026年7月16日に主要ベンダーがコーディングエージェントを同時強化した動きを解説した。OpenAIのGPT-5.6系のGA、AnthropicのClaude Sonnet 5とFable 5、GoogleのGemini 3.1 Pro（256万トークン級コンテキスト）などが相次いだ。新世代エージェントは実リポジトリに接地し、数百ファイル規模の変更をトレーサビリティ付きで実行できると整理する。一発補完から追跡可能な変更へと質が変わっている点を強調している。</p>
+    <p>エージェントの実力が数百ファイル規模に達すると、開発の見積単位と品質管理の設計が変わる。ディレクターが半期の開発前提を更新すべき重要動向だ。</p>
+    <p><a href="https://chatgptaihub.com/the-big-ai-coding-agents-story-what-july-16-s-news-means-for-developers/">出典：ChatGPT AI Hub</a></p>
+  </li>
+  <li>
+    <p><strong>Agensi「Best AI Coding Tools July 2026: Post-GPT-5.6 and Fable 5 Rankings」</strong></p>
+    <p>Agensiが、GPT-5.6とFable 5の登場を織り込んだ2026年7月時点のAIコーディングツール順位を整理した。Fable 5はWebDev Arenaで最高スコア級を記録し、Web制作系タスクでの実力が高いと評価している。Claude CodeやWindsurfなど、価格と機能のバランスを踏まえた選定軸を提示する。モデル世代交代がツール勢力図に与える影響を追った内容だ。</p>
+    <p>Web制作タスクに強いモデル・ツールの把握は、実装効率と品質の見積に直結する。ディレクターが開発環境の標準を見直す判断材料になる。</p>
+    <p><a href="https://www.agensi.io/learn/best-ai-coding-tools-july-2026">出典：Agensi</a></p>
+  </li>
+</ol>
+
+<h3>今週の1本</h3>
+<p><strong><a href="https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/">Figma、Config 2026でMotion・Code Layers・AI機能を追加（TechCrunch）</a></strong></p>
+<p>デザインと実装の境界を溶かす構造的な変化で、Webディレクションの工程設計に最も長く効く一本だからだ。アニメーション仕様をFigma内で定義してCSS／React／SVGへ書き出せるようになると、これまで曖昧だったモーションのハンドオフと見積が明確化する。デザイン→実装の分担・スケジュール・品質管理を組み直す起点として、今週最も押さえておきたいニュース。</p>]]></content:encoded>
+    </item>
+    <item>
       <title>【AIニュース】2026年7月12日（Webディレクター向け）</title>
       <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
       <guid isPermaLink="false">2026-07-12-daily</guid>
