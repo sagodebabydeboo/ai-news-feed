@@ -7,6 +7,278 @@
     <language>ja</language>
     <!-- ここから下に各回の <item> が自動で追記されます -->
     <item>
+      <title>【AIニュース】2026年7月21日（Webディレクター向け）</title>
+      <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+      <guid isPermaLink="false">2026-07-21-daily</guid>
+      <pubDate>Tue, 21 Jul 2026 17:56:55 +0000</pubDate>
+      <description><![CDATA[<h2>【AIニュース】2026年7月21日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>necco inc.「ウェブ制作会社フロントエンドエンジニアの『AIツール、こう使ってます』実録」</strong></p>
+    <p>necco inc.のフロントエンドエンジニアが、CursorとClaude Codeを実務でどう使い分けているかを詳細にレポートした記事。補完精度が高いCursorを日常コーディングの主軸に置きつつ、ファイルをまたぐ設計相談や仕様確認はClaude Codeに切り替える運用を具体的に紹介している。プロンプト例やショートカット活用まで踏み込んだ現場感が特徴だ。「AIツールを知っている」から「使いこなしている」段階への実録として読み応えがある。</p>
+    <p>制作会社のエンジニアによるAIツール使い分けの実録は、ディレクターが体制設計やツール標準化を提案する際の根拠として使いやすい。エンジニアとのツール選定議論を始める共通言語にもなる。</p>
+    <p><a href="https://necco.inc/note/48139/">出典：necco inc.</a></p>
+  </li>
+  <li>
+    <p><strong>ニジボックス「デザイン×AIツールおすすめ27選！無料で使えるサービス・選ぶ際のポイント【2026年最新】」</strong></p>
+    <p>ニジボックスが、デザイン工程で活用できるAIツール27種を用途別に整理したガイドを更新した。ワイヤー生成・UIデザイン・プロトタイプ・画像生成・モーション・コピー生成まで幅広いカテゴリをカバーし、無料で使えるサービスの選定軸も解説している。27種を一覧できる構成はデザイン工程の全体像把握と研修設計に役立つ。導入時のコストや学習負荷への言及もある。</p>
+    <p>27種を工程別に整理した一覧は、制作チームのツール選定と研修計画の出発点になる。ディレクターが提案フェーズでのデザイン工程効率化ツールセットを把握するのに最適だ。</p>
+    <p><a href="https://blog.nijibox.jp/article/design-aitool/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>iret.media「【Config 2026】FigmaのキャンバスがAIで進化！発表された6つの新機能まとめ」</strong></p>
+    <p>iret.mediaがFigma Config 2026で発表された6つの主要AI機能を日本語でまとめた。コードレイヤー（任意レイヤーをインタラクティブなコード素材に変換）、Figma Weave（スタイル転送・背景置換・製品フォトシュートなど20以上のAI画像タスクをパネル内で実行）、AIエージェントによるシェーダー生成などが含まれる。デザイン・コード・AIが1つのキャンバスに統合される流れを端的に把握できる。日本語でまとめられた数少ない一次資料だ。</p>
+    <p>FigmaはWeb制作の中核ツール。AI新機能の把握はデザイナー研修・ワークフロー設計・採用要件の見直しに直結する。ディレクターが社内の制作体制再編を判断する材料になる。</p>
+    <p><a href="https://iret.media/201148">出典：iret.media</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita（degudegu2510）「Figma Config 2026 まとめ #AI」</strong></p>
+    <p>QiitaにFigma Config 2026のAI関連アップデートをエンジニア目線でまとめた記事が公開された。Figma WeaveのAPI連携やコードレイヤーとエージェントの接続フローなど、実装者に役立つ技術詳細を日本語で確認できる。デザイン側の機能として語られがちなFigma新機能を実装者視点で整理しており、デザイナーとエンジニア双方が同じ粒度で理解するための素材になる。Config 2026の技術深堀りとして読む価値がある。</p>
+    <p>ハンドオフ品質と速度の向上にはデザイナーとエンジニアの共通理解が前提。ディレクターが社内勉強会や提案資料の素材として活用しやすい日本語技術まとめだ。</p>
+    <p><a href="https://qiita.com/degudegu2510/items/f25759d09de8d675d443">出典：Qiita / degudegu2510</a></p>
+  </li>
+  <li>
+    <p><strong>C&amp;Pストラテジー「Web制作会社は今後なくなる？未来の市場規模と需要・必要スキル」</strong></p>
+    <p>C&amp;Pストラテジーコンサルティングが、生成AIとノーコードツールの台頭によるWeb制作会社の将来性を分析した。「なくなる」ではなく「機能が変わる」と結論づけ、単純コーディングやテンプレートデザインが代替される一方で設計・ディレクション・品質管理の価値が上がると整理している。必要スキルの変化（プロンプト設計・AI出力レビュー・体制設計）を具体的に示す点が実践的だ。制作会社の経営判断・人材育成に役立つ視点を提供している。</p>
+    <p>自社のポジションと付加価値をどこに置くかは、ディレクターの提案力と組織設計の核心問題だ。採用要件や組織設計の方針を立てる際の論拠として使える。</p>
+    <p><a href="https://cp-strategy.jp/insights/1409">出典：C&amp;Pストラテジーコンサルティング</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】広告業界の生成AI活用事例11選｜制作・運用・分析を効率化」</strong></p>
+    <p>genai-ai.co.jpが7月版として更新した広告業界の生成AI活用事例11選。バナー制作でAIエージェントに案出しとバリエーション生成を任せ制作時間を大幅削減しつつCTRを向上した事例や、LPの構築・改修をClaude Codeで完結させた実例が含まれる。人が最終レビューを担い数値・法的表現をチェックする運用フローの重要性にも言及している。コスト削減と品質担保の両立方法が具体的に示されている。</p>
+    <p>広告・LPの自動化事例はWeb制作ディレクターが自社提案に転用しやすい。AI活用で何をどれだけ削減できるかの見積根拠として直接使える素材だ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-ad-ai-use-cases/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>ベイジの図書館「生成AIの進化でウェブ制作会社が消える可能性があるという話」</strong></p>
+    <p>BXデザイン会社ベイジが、生成AIの進化によりWeb制作会社が消滅しうる可能性を率直に論じた記事。単純コーディングやテンプレートデザインはAIに代替される一方、課題設定・体験設計・ブランドとの整合は人間の専権事項になると整理している。制作「作業」から「判断と設計」への移行を制作会社としての生き残り戦略として提示し、業界の誠実な自己分析として読み応えがある。</p>
+    <p>「AIに取られる仕事」と「残る仕事」の境界線を明確にする議論は、ディレクターがチームに説明する際の論拠として使える。自社の提案価値を再定義する出発点にもなる。</p>
+    <p><a href="https://baigie.me/officialblog/2024/06/26/web_production_crisis/">出典：ベイジの図書館</a></p>
+  </li>
+  <li>
+    <p><strong>ObotAI「Web制作をAIで効率化！おすすめツールと活用手順【2026年版】」</strong></p>
+    <p>ObotAIが2026年版のWeb制作AIツール活用ガイドを公開した。企画・デザイン・コーディング・テスト・更新の各工程に使えるツールと手順を体系的に整理している。数時間〜数日かかっていたサイト制作がAI活用で大幅に短縮できる実情を示し、無料プランや月額数千円で収まるケースが多い費用感についても言及している。AIツール初導入チームへのロードマップとして機能する内容だ。</p>
+    <p>工程全体をカバーした活用手順書は、AI未導入チームが最初の一歩を踏み出す際のロードマップになる。ディレクターが社内提案・研修設計のベースとして使いやすい構成だ。</p>
+    <p><a href="https://obot-ai.com/column/14801/">出典：ObotAI</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】genai-ai.co.jp「【2026年7月最新】動画生成AIおすすめ完全ガイド｜業務活用・商用利用まで徹底解説」</strong></p>
+    <p>genai-ai.co.jpが7月版として更新した動画生成AIの完全ガイド。1080p解像度・長尺・キャラクター一貫性が実現し、SNS広告・商品紹介・社内教育動画の制作コストを大幅削減できる水準に達したと整理している。YouTubeによるAI生成動画の自動ラベル対応や、ツールごとの商用利用可否の違いについても整理されている。SNS向け短尺クリップの量産に特化したツール比較も含まれる。</p>
+    <p>Web制作案件で動画コンテンツの依頼が増える中、ディレクターが動画生成AIの実力・限界・商用条件を把握しておくことは提案精度に直結する。見積の前提として商用利用可否の確認は必須だ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-video-generation-ai-guide/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】comnico「【2026年7月版】SNSニュースまとめ｜Instagram Plus・グリッド並び替え・Threadsコミュニティ機能など」</strong></p>
+    <p>comnicoが2026年7月版の主要SNSアップデートをまとめた。InstagramではPlus（有料サブスク）やグリッド投稿の並び替え機能が追加され、ThreadsにはDiscord風のコミュニティ機能が実装された。Xのアルゴリズム変更以降のリーチ動向にも触れ、各プラットフォームの表示最適化トレンドを整理している。フォロワー数より「保存率・共有率」を優先した設計への移行が加速している実態がよく分かる。</p>
+    <p>WebサイトとSNS運用設計を並行して担うディレクターにとって、各プラットフォームの仕様変化の把握は必須だ。コンテンツ配置・フォーマット・露出設計の見直しタイミングを判断する参考になる。</p>
+    <p><a href="https://www.comnico.jp/we-love-social/sns-news">出典：comnico</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>GitHub Blog「Browser tools for GitHub Copilot in VS Code are generally available」（7月1日GA）</strong></p>
+    <p>GitHubが7月1日、VS Code内GitHub Copilotのブラウザツールを一般提供（GA）開始したと発表した。エージェントがリアルブラウザを起動し、ページ遷移・クリック・フォーム入力・スクリーンショット取得・コンソールエラー読み取りをVS Codeを離れずに実行できる。コードを書きながら動作確認とデバッグをその場で行うワークフローが完成した形だ。実装と検証の一体化が本格化している。</p>
+    <p>ブラウザ操作をエージェントに任せられると、コーディング→ビルド→確認のループが大幅に短縮される。ディレクターが開発工程のスピードと品質管理フローを見直す重要なマイルストーンだ。</p>
+    <p><a href="https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available/">出典：GitHub Blog Changelog</a></p>
+  </li>
+  <li>
+    <p><strong>Kingy.ai「GitHub Copilot VS Code June 2026 Update: Browser Agents, Parallel Sessions, AI Credit Visibility」</strong></p>
+    <p>Kingy.aiが7月8日公開のGitHub Copilot VS Code 6月版アップデート詳細をまとめた。ブラウザエージェントのGA、複数エージェントセッションの並行管理（グルーピングとドラッグ整理）、AIクレジット使用量のリアルタイム可視化が主な追加機能だ。複数エージェントを並行走行させ進捗をセッション単位で管理できる体制となり、チーム開発での本格活用が現実的になった。コスト管理の透明化も進んでいる。</p>
+    <p>並行エージェント実行とコスト可視化は、制作チームがAI活用コストを見積もり管理する基盤になる。ディレクターがエンジニアチームのAI利用計画を立案する際の具体的な根拠になる。</p>
+    <p><a href="https://kingy.ai/news/github-copilot-vs-code-june-2026-update/">出典：Kingy.ai</a></p>
+  </li>
+  <li>
+    <p><strong>Cosmic JS「Claude Code vs GitHub Copilot vs Cursor（2026）: Full Comparison」</strong></p>
+    <p>CosmicJSが2026年時点のClaude Code・GitHub Copilot・Cursorを詳細に比較した。Claude CodeはCLI型でブラウザ起動・ファイル操作まで一体化、CursorはIDE統合で日常補完に強く、CopilotはGitHub連携とエコシステムの広さが強みと整理している。SpaceXによるCursor（Anysphere）の600億ドル買収など業界再編にも言及する。ツールの現在地と選定軸を実務目線でまとめた比較だ。</p>
+    <p>主要3ツールの使い分けを把握することは、制作会社がツール標準化と月次ライセンスコストを計画する前提になる。ディレクターが開発チームとの環境選定を議論する際の共通材料として使いやすい。</p>
+    <p><a href="https://www.cosmicjs.com/blog/claude-code-vs-github-copilot-vs-cursor-which-ai-coding-agent-should-you-use-2026">出典：Cosmic JS</a></p>
+  </li>
+  <li>
+    <p><strong>Spectrum AI Lab「AI Coding Tools Pricing 2026: Copilot vs Claude Code vs Codex vs Cursor」</strong></p>
+    <p>Spectrum AI Labが主要AIコーディングツールの2026年版料金体系を比較した。GitHub Copilotが6月1日に使用量ベース課金（1 AIクレジット＝$0.01）へ完全移行したことで、従来の定額予算管理が通用しなくなった実態を整理している。CursorはComposerとAPI利用の枠を分離し、Claude CodeはPro/Maxプランで上限付き利用が可能な体制を維持している。コスト管理の複雑化を踏まえたチーム導入計画の見直しを促す内容だ。</p>
+    <p>AIツールの課金が使用量ベースに移行すると、月次ツールコストが予測困難になる。ディレクターが制作費見積もりと社内ツール予算を組み直す理由として直接使える情報だ。</p>
+    <p><a href="https://spectrumailab.com/blog/ai-coding-tools-pricing-compared-2026">出典：Spectrum AI Lab</a></p>
+  </li>
+  <li>
+    <p><strong>Vellum AI「Claude Fable 5 &amp; Claude Mythos 5: Full Benchmark Breakdown」</strong></p>
+    <p>Vellum AIが、7月1日にAPI復帰したClaude Fable 5とClaude Mythos 5のベンチマーク詳細を解説した。Fable 5はSWE-bench Verified 95.0%・SWE-Bench Pro 80.3%でコーディングベンチマーク最高スコアを達成し、WebDev Arenaでもトップ評価を受けている。スクリーンショットからWebアプリのソースコードを再構築したり、数百万行の大規模コードベースのマイグレーションを1日で完了したりする実績が報告されている。</p>
+    <p>SWE-bench 95%はWeb制作タスクに直接活用できる実力値だ。Claude Codeを使ったLP制作・改修・マイグレーションの速度と品質の前提が変わり、ディレクターが見積工数と品質基準を更新する理由になる。</p>
+    <p><a href="https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained">出典：Vellum AI</a></p>
+  </li>
+  <li>
+    <p><strong>Lushbinary「AI Coding Agents 2026: Claude Code vs Antigravity 2.0 vs Codex vs Cursor vs Kiro vs Copilot vs Windsurf」</strong></p>
+    <p>Lushbinaryが2026年版AIコーディングエージェント7本を機能・料金・適用場面で比較した。AWS製の新エージェント「Kiro」はスペック主導型の開発フロー（要件→設計→コード自動化）を特徴とし、大規模・複雑プロジェクト向けに最適化されている。Antigravity 2.0は軽量・高速で小規模サイト制作に向くと評価している。新旧エージェントが用途別に棲み分けつつある状況を把握できる。</p>
+    <p>エージェントの種類と適用場面の把握は、制作規模や予算に応じたツール選定の精度を上げる。ディレクターが案件ごとにAI活用方針を決める際のリファレンスになる。</p>
+    <p><a href="https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/">出典：Lushbinary</a></p>
+  </li>
+  <li>
+    <p><strong>Neel Networks「ChatGPT vs Gemini vs Claude: Best AI for Web Design 2026」</strong></p>
+    <p>Neel Networksが、Web Design用途に絞ったChatGPT・Gemini・Claudeの実践比較を公開した。GeminiはGoogleサービスとのリアルタイム連携と情報収集に強く、Claudeは長文コード生成と設計相談、ChatGPTはバリエーション量産と反復作業に向くと整理している。「朝のリサーチはGemini、設計相談はClaude、バリエーション出しはChatGPT」という使い分けを推奨する実践的な内容だ。</p>
+    <p>LLMの使い分けを明確にすると制作チームのAI活用効率が上がる。ディレクターがチームへのAIリテラシー研修を設計する際のフレームワークになる。</p>
+    <p><a href="https://www.neelnetworks.com/blog/chatgpt-vs-gemini-vs-claude-web-design/">出典：Neel Networks</a></p>
+  </li>
+  <li>
+    <p><strong>digen.ai「Best AI Tools for Motion Graphics 2026: Future of Design」</strong></p>
+    <p>digen.aiが2026年のモーショングラフィックス向けAIツールをまとめた。Adobe After Effectsの新AI機能（モーション自動生成・物理シミュレーション）、Runway Gen-4による映画品質の動画生成、Luma Dream Machine 3.0などが上位に並ぶ。ロトスコープ・キーフレーム自動化・物理ベースシミュレーションがAIで処理され制作時間が最大70%削減できると報告されている。「AIが素材を生成→人がモーションパスを調整」のハイブリッド制作が主流になりつつある。</p>
+    <p>モーション制作の自動化は演出品質を上げながらコストを下げる可能性を持つ。ディレクターがアニメーション込みの提案と見積を組む際の技術的前提を更新する素材だ。</p>
+    <p><a href="https://resource.digen.ai/best-ai-tools-for-motion-graphics-2026/">出典：digen.ai</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】YouTube「The real tools that will define motion graphics in 2026」</strong></p>
+    <p>YouTubeで公開された、2026年のモーショングラフィックス制作を定義するツールを現役デザイナーが解説した動画。After Effects・Cavalry・RunwayのAI機能、BlenderのジェネレーティブAIアドオンなどを実際の使用者目線で紹介している。「AIがアニメーション候補を複数出し、デザイナーが選択と調整に専念する」体制が整いつつある実態を語っており、ツールレビューとして信頼性が高い。</p>
+    <p>実際の制作者が使っているツールと活用方法を把握することで、ディレクターがモーション案件の見積と外注判断をより精度高く行えるようになる。演出提案の幅を広げる素材にもなる。</p>
+    <p><a href="https://www.youtube.com/watch?v=7a-DHIJsJwU">出典：YouTube</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】DEV Community「How AI is changing frontend development in 2025—and how to keep up」</strong></p>
+    <p>DEV Communityに投稿されたフロントエンド開発とAIの変化についての記事がエンジニアコミュニティで注目を集めている。コード補完から始まりUI生成・テスト自動化・デプロイまでAIが工程全体に浸透しつつある現状を開発者目線でまとめている。「AIは新しいStackOverflow」という表現で、調べて貼る行為がプロンプトに置き換わりつつある様子を描写する。実装者コミュニティでの生の声が確認できる内容だ。</p>
+    <p>開発者コミュニティの温度感を把握することは、ディレクターが制作チームのAIリテラシー現状を測る参考になる。現場エンジニアがAIをどう捉えているかを知ることで、導入推進の障壁と促進要因が見えてくる。</p>
+    <p><a href="https://dev.to/umairarshad-dev/how-ai-is-changing-frontend-development-in-2025-and-how-to-keep-up-f1j">出典：DEV Community</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p><strong><a href="https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained">Claude Fable 5、SWE-bench 95%でコーディングトップに復帰（Vellum AI）</a></strong></p>
+<p>7月1日にAPI制限が解除されClaude Code・APIで再利用可能になったFable 5は、SWE-bench Verified 95%という実装精度でWeb制作タスクの前提を引き上げた。LP構築・コード移行・バグ修正がAIエージェントで完結できる水準に達しており、エンジニアの工数見積と品質基準を今すぐ見直す理由になる。Web制作チームがAIコーディングエージェントに何を任せられるかを再定義する上で、今日最も押さえておきたいニュースだ。</p>]]></description>
+      <content:encoded><![CDATA[<h2>【AIニュース】2026年7月21日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>necco inc.「ウェブ制作会社フロントエンドエンジニアの『AIツール、こう使ってます』実録」</strong></p>
+    <p>necco inc.のフロントエンドエンジニアが、CursorとClaude Codeを実務でどう使い分けているかを詳細にレポートした記事。補完精度が高いCursorを日常コーディングの主軸に置きつつ、ファイルをまたぐ設計相談や仕様確認はClaude Codeに切り替える運用を具体的に紹介している。プロンプト例やショートカット活用まで踏み込んだ現場感が特徴だ。「AIツールを知っている」から「使いこなしている」段階への実録として読み応えがある。</p>
+    <p>制作会社のエンジニアによるAIツール使い分けの実録は、ディレクターが体制設計やツール標準化を提案する際の根拠として使いやすい。エンジニアとのツール選定議論を始める共通言語にもなる。</p>
+    <p><a href="https://necco.inc/note/48139/">出典：necco inc.</a></p>
+  </li>
+  <li>
+    <p><strong>ニジボックス「デザイン×AIツールおすすめ27選！無料で使えるサービス・選ぶ際のポイント【2026年最新】」</strong></p>
+    <p>ニジボックスが、デザイン工程で活用できるAIツール27種を用途別に整理したガイドを更新した。ワイヤー生成・UIデザイン・プロトタイプ・画像生成・モーション・コピー生成まで幅広いカテゴリをカバーし、無料で使えるサービスの選定軸も解説している。27種を一覧できる構成はデザイン工程の全体像把握と研修設計に役立つ。導入時のコストや学習負荷への言及もある。</p>
+    <p>27種を工程別に整理した一覧は、制作チームのツール選定と研修計画の出発点になる。ディレクターが提案フェーズでのデザイン工程効率化ツールセットを把握するのに最適だ。</p>
+    <p><a href="https://blog.nijibox.jp/article/design-aitool/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>iret.media「【Config 2026】FigmaのキャンバスがAIで進化！発表された6つの新機能まとめ」</strong></p>
+    <p>iret.mediaがFigma Config 2026で発表された6つの主要AI機能を日本語でまとめた。コードレイヤー（任意レイヤーをインタラクティブなコード素材に変換）、Figma Weave（スタイル転送・背景置換・製品フォトシュートなど20以上のAI画像タスクをパネル内で実行）、AIエージェントによるシェーダー生成などが含まれる。デザイン・コード・AIが1つのキャンバスに統合される流れを端的に把握できる。日本語でまとめられた数少ない一次資料だ。</p>
+    <p>FigmaはWeb制作の中核ツール。AI新機能の把握はデザイナー研修・ワークフロー設計・採用要件の見直しに直結する。ディレクターが社内の制作体制再編を判断する材料になる。</p>
+    <p><a href="https://iret.media/201148">出典：iret.media</a></p>
+  </li>
+  <li>
+    <p><strong>Qiita（degudegu2510）「Figma Config 2026 まとめ #AI」</strong></p>
+    <p>QiitaにFigma Config 2026のAI関連アップデートをエンジニア目線でまとめた記事が公開された。Figma WeaveのAPI連携やコードレイヤーとエージェントの接続フローなど、実装者に役立つ技術詳細を日本語で確認できる。デザイン側の機能として語られがちなFigma新機能を実装者視点で整理しており、デザイナーとエンジニア双方が同じ粒度で理解するための素材になる。Config 2026の技術深堀りとして読む価値がある。</p>
+    <p>ハンドオフ品質と速度の向上にはデザイナーとエンジニアの共通理解が前提。ディレクターが社内勉強会や提案資料の素材として活用しやすい日本語技術まとめだ。</p>
+    <p><a href="https://qiita.com/degudegu2510/items/f25759d09de8d675d443">出典：Qiita / degudegu2510</a></p>
+  </li>
+  <li>
+    <p><strong>C&amp;Pストラテジー「Web制作会社は今後なくなる？未来の市場規模と需要・必要スキル」</strong></p>
+    <p>C&amp;Pストラテジーコンサルティングが、生成AIとノーコードツールの台頭によるWeb制作会社の将来性を分析した。「なくなる」ではなく「機能が変わる」と結論づけ、単純コーディングやテンプレートデザインが代替される一方で設計・ディレクション・品質管理の価値が上がると整理している。必要スキルの変化（プロンプト設計・AI出力レビュー・体制設計）を具体的に示す点が実践的だ。制作会社の経営判断・人材育成に役立つ視点を提供している。</p>
+    <p>自社のポジションと付加価値をどこに置くかは、ディレクターの提案力と組織設計の核心問題だ。採用要件や組織設計の方針を立てる際の論拠として使える。</p>
+    <p><a href="https://cp-strategy.jp/insights/1409">出典：C&amp;Pストラテジーコンサルティング</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】広告業界の生成AI活用事例11選｜制作・運用・分析を効率化」</strong></p>
+    <p>genai-ai.co.jpが7月版として更新した広告業界の生成AI活用事例11選。バナー制作でAIエージェントに案出しとバリエーション生成を任せ制作時間を大幅削減しつつCTRを向上した事例や、LPの構築・改修をClaude Codeで完結させた実例が含まれる。人が最終レビューを担い数値・法的表現をチェックする運用フローの重要性にも言及している。コスト削減と品質担保の両立方法が具体的に示されている。</p>
+    <p>広告・LPの自動化事例はWeb制作ディレクターが自社提案に転用しやすい。AI活用で何をどれだけ削減できるかの見積根拠として直接使える素材だ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-ad-ai-use-cases/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>ベイジの図書館「生成AIの進化でウェブ制作会社が消える可能性があるという話」</strong></p>
+    <p>BXデザイン会社ベイジが、生成AIの進化によりWeb制作会社が消滅しうる可能性を率直に論じた記事。単純コーディングやテンプレートデザインはAIに代替される一方、課題設定・体験設計・ブランドとの整合は人間の専権事項になると整理している。制作「作業」から「判断と設計」への移行を制作会社としての生き残り戦略として提示し、業界の誠実な自己分析として読み応えがある。</p>
+    <p>「AIに取られる仕事」と「残る仕事」の境界線を明確にする議論は、ディレクターがチームに説明する際の論拠として使える。自社の提案価値を再定義する出発点にもなる。</p>
+    <p><a href="https://baigie.me/officialblog/2024/06/26/web_production_crisis/">出典：ベイジの図書館</a></p>
+  </li>
+  <li>
+    <p><strong>ObotAI「Web制作をAIで効率化！おすすめツールと活用手順【2026年版】」</strong></p>
+    <p>ObotAIが2026年版のWeb制作AIツール活用ガイドを公開した。企画・デザイン・コーディング・テスト・更新の各工程に使えるツールと手順を体系的に整理している。数時間〜数日かかっていたサイト制作がAI活用で大幅に短縮できる実情を示し、無料プランや月額数千円で収まるケースが多い費用感についても言及している。AIツール初導入チームへのロードマップとして機能する内容だ。</p>
+    <p>工程全体をカバーした活用手順書は、AI未導入チームが最初の一歩を踏み出す際のロードマップになる。ディレクターが社内提案・研修設計のベースとして使いやすい構成だ。</p>
+    <p><a href="https://obot-ai.com/column/14801/">出典：ObotAI</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】genai-ai.co.jp「【2026年7月最新】動画生成AIおすすめ完全ガイド｜業務活用・商用利用まで徹底解説」</strong></p>
+    <p>genai-ai.co.jpが7月版として更新した動画生成AIの完全ガイド。1080p解像度・長尺・キャラクター一貫性が実現し、SNS広告・商品紹介・社内教育動画の制作コストを大幅削減できる水準に達したと整理している。YouTubeによるAI生成動画の自動ラベル対応や、ツールごとの商用利用可否の違いについても整理されている。SNS向け短尺クリップの量産に特化したツール比較も含まれる。</p>
+    <p>Web制作案件で動画コンテンツの依頼が増える中、ディレクターが動画生成AIの実力・限界・商用条件を把握しておくことは提案精度に直結する。見積の前提として商用利用可否の確認は必須だ。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-video-generation-ai-guide/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】comnico「【2026年7月版】SNSニュースまとめ｜Instagram Plus・グリッド並び替え・Threadsコミュニティ機能など」</strong></p>
+    <p>comnicoが2026年7月版の主要SNSアップデートをまとめた。InstagramではPlus（有料サブスク）やグリッド投稿の並び替え機能が追加され、ThreadsにはDiscord風のコミュニティ機能が実装された。Xのアルゴリズム変更以降のリーチ動向にも触れ、各プラットフォームの表示最適化トレンドを整理している。フォロワー数より「保存率・共有率」を優先した設計への移行が加速している実態がよく分かる。</p>
+    <p>WebサイトとSNS運用設計を並行して担うディレクターにとって、各プラットフォームの仕様変化の把握は必須だ。コンテンツ配置・フォーマット・露出設計の見直しタイミングを判断する参考になる。</p>
+    <p><a href="https://www.comnico.jp/we-love-social/sns-news">出典：comnico</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>GitHub Blog「Browser tools for GitHub Copilot in VS Code are generally available」（7月1日GA）</strong></p>
+    <p>GitHubが7月1日、VS Code内GitHub Copilotのブラウザツールを一般提供（GA）開始したと発表した。エージェントがリアルブラウザを起動し、ページ遷移・クリック・フォーム入力・スクリーンショット取得・コンソールエラー読み取りをVS Codeを離れずに実行できる。コードを書きながら動作確認とデバッグをその場で行うワークフローが完成した形だ。実装と検証の一体化が本格化している。</p>
+    <p>ブラウザ操作をエージェントに任せられると、コーディング→ビルド→確認のループが大幅に短縮される。ディレクターが開発工程のスピードと品質管理フローを見直す重要なマイルストーンだ。</p>
+    <p><a href="https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available/">出典：GitHub Blog Changelog</a></p>
+  </li>
+  <li>
+    <p><strong>Kingy.ai「GitHub Copilot VS Code June 2026 Update: Browser Agents, Parallel Sessions, AI Credit Visibility」</strong></p>
+    <p>Kingy.aiが7月8日公開のGitHub Copilot VS Code 6月版アップデート詳細をまとめた。ブラウザエージェントのGA、複数エージェントセッションの並行管理（グルーピングとドラッグ整理）、AIクレジット使用量のリアルタイム可視化が主な追加機能だ。複数エージェントを並行走行させ進捗をセッション単位で管理できる体制となり、チーム開発での本格活用が現実的になった。コスト管理の透明化も進んでいる。</p>
+    <p>並行エージェント実行とコスト可視化は、制作チームがAI活用コストを見積もり管理する基盤になる。ディレクターがエンジニアチームのAI利用計画を立案する際の具体的な根拠になる。</p>
+    <p><a href="https://kingy.ai/news/github-copilot-vs-code-june-2026-update/">出典：Kingy.ai</a></p>
+  </li>
+  <li>
+    <p><strong>Cosmic JS「Claude Code vs GitHub Copilot vs Cursor（2026）: Full Comparison」</strong></p>
+    <p>CosmicJSが2026年時点のClaude Code・GitHub Copilot・Cursorを詳細に比較した。Claude CodeはCLI型でブラウザ起動・ファイル操作まで一体化、CursorはIDE統合で日常補完に強く、CopilotはGitHub連携とエコシステムの広さが強みと整理している。SpaceXによるCursor（Anysphere）の600億ドル買収など業界再編にも言及する。ツールの現在地と選定軸を実務目線でまとめた比較だ。</p>
+    <p>主要3ツールの使い分けを把握することは、制作会社がツール標準化と月次ライセンスコストを計画する前提になる。ディレクターが開発チームとの環境選定を議論する際の共通材料として使いやすい。</p>
+    <p><a href="https://www.cosmicjs.com/blog/claude-code-vs-github-copilot-vs-cursor-which-ai-coding-agent-should-you-use-2026">出典：Cosmic JS</a></p>
+  </li>
+  <li>
+    <p><strong>Spectrum AI Lab「AI Coding Tools Pricing 2026: Copilot vs Claude Code vs Codex vs Cursor」</strong></p>
+    <p>Spectrum AI Labが主要AIコーディングツールの2026年版料金体系を比較した。GitHub Copilotが6月1日に使用量ベース課金（1 AIクレジット＝$0.01）へ完全移行したことで、従来の定額予算管理が通用しなくなった実態を整理している。CursorはComposerとAPI利用の枠を分離し、Claude CodeはPro/Maxプランで上限付き利用が可能な体制を維持している。コスト管理の複雑化を踏まえたチーム導入計画の見直しを促す内容だ。</p>
+    <p>AIツールの課金が使用量ベースに移行すると、月次ツールコストが予測困難になる。ディレクターが制作費見積もりと社内ツール予算を組み直す理由として直接使える情報だ。</p>
+    <p><a href="https://spectrumailab.com/blog/ai-coding-tools-pricing-compared-2026">出典：Spectrum AI Lab</a></p>
+  </li>
+  <li>
+    <p><strong>Vellum AI「Claude Fable 5 &amp; Claude Mythos 5: Full Benchmark Breakdown」</strong></p>
+    <p>Vellum AIが、7月1日にAPI復帰したClaude Fable 5とClaude Mythos 5のベンチマーク詳細を解説した。Fable 5はSWE-bench Verified 95.0%・SWE-Bench Pro 80.3%でコーディングベンチマーク最高スコアを達成し、WebDev Arenaでもトップ評価を受けている。スクリーンショットからWebアプリのソースコードを再構築したり、数百万行の大規模コードベースのマイグレーションを1日で完了したりする実績が報告されている。</p>
+    <p>SWE-bench 95%はWeb制作タスクに直接活用できる実力値だ。Claude Codeを使ったLP制作・改修・マイグレーションの速度と品質の前提が変わり、ディレクターが見積工数と品質基準を更新する理由になる。</p>
+    <p><a href="https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained">出典：Vellum AI</a></p>
+  </li>
+  <li>
+    <p><strong>Lushbinary「AI Coding Agents 2026: Claude Code vs Antigravity 2.0 vs Codex vs Cursor vs Kiro vs Copilot vs Windsurf」</strong></p>
+    <p>Lushbinaryが2026年版AIコーディングエージェント7本を機能・料金・適用場面で比較した。AWS製の新エージェント「Kiro」はスペック主導型の開発フロー（要件→設計→コード自動化）を特徴とし、大規模・複雑プロジェクト向けに最適化されている。Antigravity 2.0は軽量・高速で小規模サイト制作に向くと評価している。新旧エージェントが用途別に棲み分けつつある状況を把握できる。</p>
+    <p>エージェントの種類と適用場面の把握は、制作規模や予算に応じたツール選定の精度を上げる。ディレクターが案件ごとにAI活用方針を決める際のリファレンスになる。</p>
+    <p><a href="https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/">出典：Lushbinary</a></p>
+  </li>
+  <li>
+    <p><strong>Neel Networks「ChatGPT vs Gemini vs Claude: Best AI for Web Design 2026」</strong></p>
+    <p>Neel Networksが、Web Design用途に絞ったChatGPT・Gemini・Claudeの実践比較を公開した。GeminiはGoogleサービスとのリアルタイム連携と情報収集に強く、Claudeは長文コード生成と設計相談、ChatGPTはバリエーション量産と反復作業に向くと整理している。「朝のリサーチはGemini、設計相談はClaude、バリエーション出しはChatGPT」という使い分けを推奨する実践的な内容だ。</p>
+    <p>LLMの使い分けを明確にすると制作チームのAI活用効率が上がる。ディレクターがチームへのAIリテラシー研修を設計する際のフレームワークになる。</p>
+    <p><a href="https://www.neelnetworks.com/blog/chatgpt-vs-gemini-vs-claude-web-design/">出典：Neel Networks</a></p>
+  </li>
+  <li>
+    <p><strong>digen.ai「Best AI Tools for Motion Graphics 2026: Future of Design」</strong></p>
+    <p>digen.aiが2026年のモーショングラフィックス向けAIツールをまとめた。Adobe After Effectsの新AI機能（モーション自動生成・物理シミュレーション）、Runway Gen-4による映画品質の動画生成、Luma Dream Machine 3.0などが上位に並ぶ。ロトスコープ・キーフレーム自動化・物理ベースシミュレーションがAIで処理され制作時間が最大70%削減できると報告されている。「AIが素材を生成→人がモーションパスを調整」のハイブリッド制作が主流になりつつある。</p>
+    <p>モーション制作の自動化は演出品質を上げながらコストを下げる可能性を持つ。ディレクターがアニメーション込みの提案と見積を組む際の技術的前提を更新する素材だ。</p>
+    <p><a href="https://resource.digen.ai/best-ai-tools-for-motion-graphics-2026/">出典：digen.ai</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】YouTube「The real tools that will define motion graphics in 2026」</strong></p>
+    <p>YouTubeで公開された、2026年のモーショングラフィックス制作を定義するツールを現役デザイナーが解説した動画。After Effects・Cavalry・RunwayのAI機能、BlenderのジェネレーティブAIアドオンなどを実際の使用者目線で紹介している。「AIがアニメーション候補を複数出し、デザイナーが選択と調整に専念する」体制が整いつつある実態を語っており、ツールレビューとして信頼性が高い。</p>
+    <p>実際の制作者が使っているツールと活用方法を把握することで、ディレクターがモーション案件の見積と外注判断をより精度高く行えるようになる。演出提案の幅を広げる素材にもなる。</p>
+    <p><a href="https://www.youtube.com/watch?v=7a-DHIJsJwU">出典：YouTube</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】DEV Community「How AI is changing frontend development in 2025—and how to keep up」</strong></p>
+    <p>DEV Communityに投稿されたフロントエンド開発とAIの変化についての記事がエンジニアコミュニティで注目を集めている。コード補完から始まりUI生成・テスト自動化・デプロイまでAIが工程全体に浸透しつつある現状を開発者目線でまとめている。「AIは新しいStackOverflow」という表現で、調べて貼る行為がプロンプトに置き換わりつつある様子を描写する。実装者コミュニティでの生の声が確認できる内容だ。</p>
+    <p>開発者コミュニティの温度感を把握することは、ディレクターが制作チームのAIリテラシー現状を測る参考になる。現場エンジニアがAIをどう捉えているかを知ることで、導入推進の障壁と促進要因が見えてくる。</p>
+    <p><a href="https://dev.to/umairarshad-dev/how-ai-is-changing-frontend-development-in-2025-and-how-to-keep-up-f1j">出典：DEV Community</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p><strong><a href="https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained">Claude Fable 5、SWE-bench 95%でコーディングトップに復帰（Vellum AI）</a></strong></p>
+<p>7月1日にAPI制限が解除されClaude Code・APIで再利用可能になったFable 5は、SWE-bench Verified 95%という実装精度でWeb制作タスクの前提を引き上げた。LP構築・コード移行・バグ修正がAIエージェントで完結できる水準に達しており、エンジニアの工数見積と品質基準を今すぐ見直す理由になる。Web制作チームがAIコーディングエージェントに何を任せられるかを再定義する上で、今日最も押さえておきたいニュースだ。</p>]]></content:encoded>
+    </item>
+    <item>
       <title>【AI週間ベスト】2026年7月18日（Webディレクター向け）</title>
       <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
       <guid isPermaLink="false">2026-07-18-weekly</guid>
