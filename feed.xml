@@ -7,6 +7,278 @@
     <language>ja</language>
     <!-- ここから下に各回の <item> が自動で追記されます -->
     <item>
+      <title>【AIニュース】2026年7月23日（Webディレクター向け）</title>
+      <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+      <guid isPermaLink="false">2026-07-23-daily</guid>
+      <pubDate>Thu, 23 Jul 2026 17:58:52 +0000</pubDate>
+      <description><![CDATA[<h2>【AIニュース】2026年7月23日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>AIpedia「AI Web制作 失敗事例10選【2026年版】コーディングAI・ノーコードAI・LP生成で起きたトラブルと回避策」</strong></p>
+    <p>AIpediaが、コーディングAI・ノーコードAI・LP生成ツールの実務利用で発生した失敗事例10件を類型別に整理した。Cursorで生成した問い合わせフォームのコードにXSS（クロスサイトスクリプティング）脆弱性が混入し1か月で数千件の不正アクセスが発生した事例や、ハルシネーションによる誤情報掲載などを分類している。「AI＝完成品」ではなく「AI＝下書き・人間が品質保証」というフローを推奨し、生成→SEO/UXレビュー→セキュリティチェック→デプロイの4段階工程を提示している。失敗パターンを先取りして回避策を把握できる内容だ。</p>
+    <p>AIコード生成の活用が加速する中、セキュリティリスクと品質保証の落とし穴は受託制作のQA工程設計に直結する。ディレクターが「AI生成コードのレビュー」を明示的に工程表に組み込む判断材料として必読だ。</p>
+    <p><a href="https://ai-pedia.jp/guides/ai-web-development-failure-cases/">出典：AIpedia</a></p>
+  </li>
+  <li>
+    <p><strong>クリーク・アンド・リバー社「Webディレクター向け無料セミナー『AIで変わるWebディレクション！』7月27日（月）19時開催」</strong></p>
+    <p>株式会社クリーク・アンド・リバー社が、ディレ森・DiSAと共催するWebディレクター向け無料オンラインセミナーを7月27日（月）19時に開催する。PENGINの代表・粟飯原匠氏が、AIをディレクション実務に組み込む具体的な手法をデモを交えて解説する予定だ。参加費無料・定員100名のオンライン形式で、見積・要件定義・品質管理へのAI活用が中心テーマとなる。日本最大のWebディレクターコミュニティが主導する実践セミナーとして注目度が高い。</p>
+    <p>ディレクション実務にAIを組み込む具体的な方法を学べる機会として希少だ。来週の参加を検討する価値があり、社内でのAI推進を議論する際の共通言語づくりにも活用できる。</p>
+    <p><a href="https://ascii.jp/elem/000/004/416/4416246/">出典：ASCII.jp</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】AI自動生成でホームページ作成！無料ツール5選とClaude Codeによる本格構築法」</strong></p>
+    <p>genai-ai.co.jpが、AIによるホームページ自動生成ツールの最新動向を整理した。WixノーコードAI生成（無料〜）からClaude Codeによるカスタム構築まで、コスト・難易度・自由度の異なる5つのアプローチを比較している。「外注100万円 or テンプレート」の二択が崩れ、月3万円前後で外注相当品質のサイトを自社で作れる時代になりつつある実態を分析。無料ツールの限界とClaude Code活用の具体的なフローについても解説している。</p>
+    <p>クライアントがAI生成ホームページを直接制作し始めるケースが増えており、ディレクターが「AIセルフ制作 vs 受託依頼」の付加価値の差を説明できる必要がある。提案・営業の場での参考資料として活用しやすい。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-ai-website-builders/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>smartcodes.jp「AIが使えない8割の正体：基礎スキップの構造とプロンプト品質の評価基準を公開」</strong></p>
+    <p>smartcodes.jpが、AI導入後に「使えない」と判断する組織の失敗要因を分析した。失敗の8割は「AIへの期待値設定の誤り」と「プロンプト品質の低さ」に起因すると指摘し、プロンプト品質を測る評価基準（明確性・制約条件の有無・出力形式の指定度）を公開している。AI活用の失敗は技術の問題ではなく設計の問題という視点が一貫しており、チーム全体のプロンプトリテラシーを底上げするための具体的な評価軸を提示している。</p>
+    <p>制作チームのAI活用がうまく進まない原因を「ツール」ではなく「設計とスキル」に帰因する分析は、社内研修設計に直結する。ディレクターが社内AIリテラシーの現状診断を行う際の評価軸として使える。</p>
+    <p><a href="https://smartcodes.jp/education/articles/ai-failure-prompt-quality-criteria/">出典：smartcodes.jp</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で注目される生成AIツールを2026年版として整理した。GoogleのStitch（UI生成専用・プロンプトからDesign Systemに沿ったUI要素を生成）、STUDIO AI（日本語で指示→Webサイト構造を自動生成）、Figma Makeなどを用途別に解説している。ワイヤーフレーム・UIデザイン・プロトタイプ・コード生成まで各工程をカバーするツールの棲み分けを把握できる。無料〜月額課金の費用感も整理されており、ツール選定の出発点として機能する。</p>
+    <p>デザイン工程をカバーするAIツールの選択肢が急拡大している。ディレクターがデザイナーとのツール選定議論を主導するには、工程ごとのツール特性を把握しておくことが前提になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>sugoyoku.com「2026年版｜Web制作AIプロンプト実践例20選【効率化】」</strong></p>
+    <p>sugoyoku.comが、Web制作の各工程で実際に使えるAIプロンプト例20種を公開した。ワイヤーフレーム作成・サイト構成案・CSSコード生成・SEO見出し最適化・バナーテキスト生成まで、ディレクターとエンジニア両方が使いやすい粒度でプロンプトを整理している。「具体的な制約条件をどれだけ含めるか」で出力品質が大きく変わることを実例で示しており、チームへの配布資料として使いやすい構成だ。X（旧Twitter）でも広くシェアされている。</p>
+    <p>具体的なプロンプト集は、AI未経験メンバーが実務でAIを使い始めるハードルを大幅に下げる。ディレクターが社内共有・研修素材として即活用できる実践ガイドだ。</p>
+    <p><a href="https://sugoyoku.com/blog/ai-web-prompt/">出典：sugoyoku.com</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】生成AIトレンド完全ガイド｜注目の技術動向・活用事例・ビジネスへの影響」</strong></p>
+    <p>genai-ai.co.jpが7月版として、AIエージェントの実用化を中心とした2026年の生成AIトレンドをまとめた。Claude Code・Codex・Copilot Agentなど自律型AIツールが相次いで登場し、「AIが答えるだけ」から「AIが仕事をする」段階へ移行しつつある状況を整理している。ノーコードがプロトタイプ専用から月間100万PVクラスの本番システムにも活用される事例が増加し、Web制作の役割分担と単価体系が変わりつつある実態を詳述している。</p>
+    <p>AIエージェントが「作業代行」から「プロジェクト遂行」へ進化するトレンドは、ディレクターが工数見積と外注判断の根拠を更新する理由になる。提案資料の前提設定を刷新する素材として活用できる。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-generative-ai-trends/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>web-heihou.jp「AIでホームページ制作！素人が陥る『稼げないサイト』の罠とプロの成功戦略」</strong></p>
+    <p>web-heihou.jpが、AIを使ったホームページ制作の落とし穴と、制作会社がプロとして差別化する戦略を解説した。「AIが作った見栄えの良いサイト」と「集客・CV設計が施されたサイト」の違いを整理し、素人がAIセルフ制作で陥りがちな「デザイン優先・ビジネス設計不在」の罠を指摘している。プロの成功戦略として「AI生成→戦略的レビュー→集客設計の統合」という3段階フローを提示し、受託制作の付加価値を明確に示している。</p>
+    <p>AIセルフ制作が普及する中で制作会社・ディレクターが提供できる付加価値が明確に示されている。「なぜ受託制作を選ぶべきか」を説明する営業論拠として使えるロジックを提供している。</p>
+    <p><a href="https://web-heihou.jp/blog/web-site/ai-website-development/">出典：web-heihou.jp</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】webtanguide「2026年7月開催のWebマーケティングセミナー・イベントまとめ」</strong></p>
+    <p>Web担ガイドが7月開催のWebマーケティング関連セミナーとイベントをまとめた。AI活用・SEO・SNS運用・Web制作効率化をテーマにした無料〜有料のウェビナー・勉強会が多数掲載されており、業界コミュニティのAI関心の高さが反映されている。Webディレクター向けAI活用セミナー、デザイン系AI入門ワークショップ、SNS×AIコンテンツ戦略セッションなどが含まれる。短期間でAI実務スキルをアップデートする機会が豊富な月となっている。</p>
+    <p>業界コミュニティで「AIをどう使うか」の議論が実務レベルに移行していることが、イベント構成から読み取れる。チームメンバーのスキルアップ機会として参加推薦できるイベントを選ぶ際の一覧として活用できる。</p>
+    <p><a href="https://www.webtanguide.jp/event/202607_eventnews/">出典：Web担ガイド</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】株式会社AX「【2026年最新】AI Webデザイン入門！おすすめツールと業務を効率化する活用法」</strong></p>
+    <p>株式会社AXが、AI Webデザインの入門ガイドをSNSでシェアされやすい形式でまとめ公開した。デザイナーがAIを使う際の心理的ハードルを下げることを意識した構成で、Figma AIの基本操作・プロンプトの書き方・ツール切り替えの判断基準を段階的に解説している。「まず試す→結果を評価する→プロンプトを調整する」というPDCAに近いAIデザイン習慣を提案しており、実務未経験者向けの導入教材として機能する内容だ。</p>
+    <p>デザイナーがAIツールを「試す文化」を作るきっかけになる入門記事だ。社内のデザイン担当者に共有することで、AIデザイン実験の第一歩を促しやすい。</p>
+    <p><a href="https://a-x.inc/blog/ai-web-design/">出典：株式会社AX</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>LogRocket Blog「AI dev tool power rankings &amp; comparison [July 2026]」</strong></p>
+    <p>LogRocketが毎月更新するAI開発ツールのランキングと比較を7月版として公開した。Claude CodeがSWE-benchで継続トップを維持し、Windsurf後継のDevin Desktopがエージェント機能を強化している現状を整理している。GitHub Copilotは使用量ベース課金移行後も採用数1位を維持しているが、コスト管理の複雑化が課題として浮上している。ツールの実力と採用動向を客観的に把握できる月次指標として信頼度が高い。</p>
+    <p>ツールランキングを定点観測することで、制作チームが使っているツールが業界水準に対してどう位置するか判断できる。ツール見直しや新規導入を提案するタイミングの根拠になる。</p>
+    <p><a href="https://blog.logrocket.com/ai-dev-tool-power-rankings/">出典：LogRocket Blog</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket Blog「CSS in 2026: The new features reshaping frontend development」</strong></p>
+    <p>LogRocketが2026年のCSSに搭載された新機能が、フロントエンド開発をどう変えているかを解説した。`@starting-style`と`transition-behavior: allow-discrete`が主要ブラウザで安定動作し、JavaScriptなしで要素の表示・非表示アニメーションが実装可能になった。CSSネスト記法・コンテナクエリ・カスケードレイヤーも実務活用フェーズに入り、Sassや複雑なBEM設計が不要になるケースが増えている。CSS単体でできる表現の幅が大きく広がっている。</p>
+    <p>CSSの新機能が実用レベルに達するとJavaScriptライブラリ依存の設計が見直され、制作コストとパフォーマンスの両方が改善しうる。ディレクターが技術要件の見直しをエンジニアと議論する際の知識として役立つ。</p>
+    <p><a href="https://blog.logrocket.com/css-in-2026/">出典：LogRocket Blog</a></p>
+  </li>
+  <li>
+    <p><strong>UI Motion Prompts「CSS Animations Are Dead — Here's What Replaced Them」</strong></p>
+    <p>UIMotionPromptsが、CSSアニメーション全盛時代が終わりAIプロンプトによるFramer Motion生成が標準になりつつある転換点を論じた。CSSアニメーションの検索流量が40%減少し、React開発者の間でAI生成Framer MotionがCSSキーフレームに取って代わりつつあるという統計的根拠を示している。「animated card grid」「page transition」などと指示するだけで動作するアニメーションコンポーネントが生成される時代になったと述べている。モーション設計のコモディティ化が加速している実態だ。</p>
+    <p>アニメーション実装の自動化が進むと、モーション演出を含む提案の実装コストが下がる。ディレクターがインタラクション仕様を提案する際の技術的前提として、実現コストを再評価するタイミングだ。</p>
+    <p><a href="https://uimotionprompts.com/blog/css-animations-dead-ai-replacement">出典：UI Motion Prompts</a></p>
+  </li>
+  <li>
+    <p><strong>Anthropic「Introducing Claude Sonnet 5」</strong></p>
+    <p>AnthropicがClaude Sonnet 5を6月30日にリリースした。1Mトークンのコンテキストウィンドウ・128k最大出力トークン・コーディング全フェーズでの高精度が特徴で、Free・Proプランのデフォルトモデルとして提供される。ブラウザ操作・ターミナル実行を含む複雑な多段階タスクを自律実行でき、入力$2/Mトークン（8月末まで）という価格設定でAPI活用コストが下がった。制作・開発への本格組み込みが現実的になっている。</p>
+    <p>Web制作チームが最も活用するAIコーディングエージェントの基盤モデルがアップデートされた。Claude Codeを用いたLP制作・コード移行・デバッグの精度と速度の前提が変わり、見積とQAフローの見直しが必要になる。</p>
+    <p><a href="https://www.anthropic.com/news/claude-sonnet-5">出典：Anthropic</a></p>
+  </li>
+  <li>
+    <p><strong>Shareuhack「Cursor vs Claude Code vs Windsurf（Now Devin Desktop）2026: Pricing, Benchmarks &amp; Which One to Pick」</strong></p>
+    <p>Shareuhackが、Cursor・Claude Code・Windsurf（現Devin Desktop）の2026年版実用比較を公開した。WinDsurfがCognitionに買収されDevin Desktopに改名・再設計された経緯と機能変更（Cascade廃止・Devin Local移行）を整理している。Cursorは月$20でJetBrains対応・Automations（イベントトリガー型常時動作エージェント）を追加し、Claude CodeはPro/Maxプランで上限付き月額利用が可能な体制を維持。ツール選定の実践的な意思決定フローが示されている。</p>
+    <p>制作チームの標準ツールを選定・見直す際に、コスト・機能・エコシステムを一覧で比較できる資料として使いやすい。特にWindsurf→Devin Desktop移行情報は既存ユーザーの制作チームには緊急度が高い。</p>
+    <p><a href="https://www.shareuhack.com/en/posts/cursor-vs-claude-code-vs-windsurf-2026">出典：Shareuhack</a></p>
+  </li>
+  <li>
+    <p><strong>builder.io「Best AI Coding Tools for Developers in 2026」</strong></p>
+    <p>builder.ioが、2026年のAIコーディングツール一覧を開発者視点でまとめた。GitHub CopilotがユーザーBase 2,000万人を突破し最も普及したツールとしてトップに立つ一方、フロントエンド特化ではv0（FigmaデザインをReactコードに即変換）やLocofy（多フレームワーク対応デザイン→コード変換）が存在感を増している。フルスタック構築ではReplitやAtoms（自然言語からフロント・バック・DB・ホスティングを一括生成）も評価されている。</p>
+    <p>フロントエンド実装に特化したツールの進化は、デザイン→コード変換の工程を大幅に自動化する可能性を持つ。ディレクターがデザイナーとエンジニアの役割境界を見直す際の具体的な技術的裏付けになる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：builder.io</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket「Figma AI in 2026: Everything it can do — and what it still can't」</strong></p>
+    <p>LogRocketが、2026年時点のFigma AIの全機能と限界を整理した実用レビューを公開した。プロンプトからUIを生成するMake Designs、テキストから完全なWebサイトを構築するFigma Make、GPT-5.6が組み込まれたFigma Sites（7月9日対応）などが実用化されている。一方で「ブランドの一貫性」と「デザインシステムの遵守」はまだ自動化できず、人による調整が不可欠な領域として残っていると分析している。できることと限界が明確に区分されている点が実務的だ。</p>
+    <p>Figmaを中心ツールとする制作現場では、どの工程をAI任せにして何を人が担うかの判断が品質を左右する。ディレクターが体制設計・レビュー工程の設計根拠として使える資料だ。</p>
+    <p><a href="https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/">出典：LogRocket</a></p>
+  </li>
+  <li>
+    <p><strong>upSkill「Figma 2026 Update | AI Features &amp; Workflow Changes」</strong></p>
+    <p>upSkillが2026年のFigma全体アップデートをワークフロー変化の観点でまとめた。1月22日のFigma Make埋め込み対応（Design/FigJam/Slidesに統合）、スマート変数・柔軟なコンポーネントSlots・画像編集の内蔵化など機能の統合が進んでいる実態を整理している。Dev Modeのコラボレーション強化によりデザイナーとエンジニアの同期コストが減りつつある。2026年のFigmaは「デザインツール」から「Web制作プラットフォーム」への移行が完成しつつあると評している。</p>
+    <p>FigmaのPlatform化が進むと、デザイナー・エンジニア・ディレクターが同一ツール上で連携するワークフローが主流になる。採用要件・ツール研修・体制設計を更新するタイミングの参考になる。</p>
+    <p><a href="https://upskill.biz/figma-2026-update-ai-features-2026/">出典：upSkill</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】DEV Community「5 CSS Animations That Needed JavaScript Until 2026」</strong></p>
+    <p>DEV Communityに投稿された、2026年以前はJavaScriptが必要だったCSSアニメーション5種を紹介する記事がエンジニアコミュニティで広くシェアされている。`@starting-style`を使った要素登場アニメーション、`transition-behavior: allow-discrete`による`display: none`のトランジション、カスタムプロパティを活用したスムーズな変数アニメーションなどを実際のコード付きで紹介している。JavaScriptなし・バンドルサイズゼロで実現できるアニメーション技術の最前線を把握できる。</p>
+    <p>CSS単体での表現力向上はフロントエンドの実装コストに直接影響する。アニメーション工数の見直しや、フレームワーク依存を減らしたシンプルな実装への移行を検討するきっかけになる。</p>
+    <p><a href="https://dev.to/raxxostudios/5-css-animations-that-needed-javascript-until-2026-2p4j">出典：DEV Community</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Medium「The 2026 AI Coding Platform Wars: Replit vs Windsurf vs Bolt.new vs Lovable」</strong></p>
+    <p>Mediumに投稿されたこの記事が開発者コミュニティで注目を集めている。Replit・Windsurf（Devin Desktop）・Bolt.new・Lovableの「フルスタックAIアプリビルダー」4社を、機能・料金・利用シーン別に比較している。Replitはバックエンド・データベース・ホスティング込みの一括生成に強く、Bolt.newはフロントエンド特化・ロックインなしのReact出力が強みとされる。v0との違いや用途別の使い分けについて、実際に各ツールを試した経験から率直に評価している。</p>
+    <p>クライアントが「Bolt.newでサイトを作ってみたい」と言い出すケースが増える状況で、受託制作会社が差別化ポイントを説明するための比較軸として活用できる。AIビルダーの限界と制作会社の価値を再整理する際の資料になる。</p>
+    <p><a href="https://medium.com/@aftab001x/the-2026-ai-coding-platform-wars-replit-vs-windsurf-vs-bolt-new-f908b9f76325">出典：Medium</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p><strong><a href="https://ai-pedia.jp/guides/ai-web-development-failure-cases/">AI Web制作 失敗事例10選【2026年版】（AIpedia）</a></strong></p>
+<p>AIコード生成の活用が加速する今、XSS脆弱性の混入やハルシネーションによる誤情報掲載など「実際に起きた失敗」を体系的に知ることは、受託制作ディレクターの責務だ。生成→レビュー→セキュリティチェック→デプロイの4段階QAフローは今日すぐ自社の工程表に組み込める。「AI＝完成品」という前提でクライアントに渡すリスクを防ぐため、現場共有を急ぎたい。</p>]]></description>
+      <content:encoded><![CDATA[<h2>【AIニュース】2026年7月23日（Webディレクター向け）</h2>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>AIpedia「AI Web制作 失敗事例10選【2026年版】コーディングAI・ノーコードAI・LP生成で起きたトラブルと回避策」</strong></p>
+    <p>AIpediaが、コーディングAI・ノーコードAI・LP生成ツールの実務利用で発生した失敗事例10件を類型別に整理した。Cursorで生成した問い合わせフォームのコードにXSS（クロスサイトスクリプティング）脆弱性が混入し1か月で数千件の不正アクセスが発生した事例や、ハルシネーションによる誤情報掲載などを分類している。「AI＝完成品」ではなく「AI＝下書き・人間が品質保証」というフローを推奨し、生成→SEO/UXレビュー→セキュリティチェック→デプロイの4段階工程を提示している。失敗パターンを先取りして回避策を把握できる内容だ。</p>
+    <p>AIコード生成の活用が加速する中、セキュリティリスクと品質保証の落とし穴は受託制作のQA工程設計に直結する。ディレクターが「AI生成コードのレビュー」を明示的に工程表に組み込む判断材料として必読だ。</p>
+    <p><a href="https://ai-pedia.jp/guides/ai-web-development-failure-cases/">出典：AIpedia</a></p>
+  </li>
+  <li>
+    <p><strong>クリーク・アンド・リバー社「Webディレクター向け無料セミナー『AIで変わるWebディレクション！』7月27日（月）19時開催」</strong></p>
+    <p>株式会社クリーク・アンド・リバー社が、ディレ森・DiSAと共催するWebディレクター向け無料オンラインセミナーを7月27日（月）19時に開催する。PENGINの代表・粟飯原匠氏が、AIをディレクション実務に組み込む具体的な手法をデモを交えて解説する予定だ。参加費無料・定員100名のオンライン形式で、見積・要件定義・品質管理へのAI活用が中心テーマとなる。日本最大のWebディレクターコミュニティが主導する実践セミナーとして注目度が高い。</p>
+    <p>ディレクション実務にAIを組み込む具体的な方法を学べる機会として希少だ。来週の参加を検討する価値があり、社内でのAI推進を議論する際の共通言語づくりにも活用できる。</p>
+    <p><a href="https://ascii.jp/elem/000/004/416/4416246/">出典：ASCII.jp</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】AI自動生成でホームページ作成！無料ツール5選とClaude Codeによる本格構築法」</strong></p>
+    <p>genai-ai.co.jpが、AIによるホームページ自動生成ツールの最新動向を整理した。WixノーコードAI生成（無料〜）からClaude Codeによるカスタム構築まで、コスト・難易度・自由度の異なる5つのアプローチを比較している。「外注100万円 or テンプレート」の二択が崩れ、月3万円前後で外注相当品質のサイトを自社で作れる時代になりつつある実態を分析。無料ツールの限界とClaude Code活用の具体的なフローについても解説している。</p>
+    <p>クライアントがAI生成ホームページを直接制作し始めるケースが増えており、ディレクターが「AIセルフ制作 vs 受託依頼」の付加価値の差を説明できる必要がある。提案・営業の場での参考資料として活用しやすい。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-ai-website-builders/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>smartcodes.jp「AIが使えない8割の正体：基礎スキップの構造とプロンプト品質の評価基準を公開」</strong></p>
+    <p>smartcodes.jpが、AI導入後に「使えない」と判断する組織の失敗要因を分析した。失敗の8割は「AIへの期待値設定の誤り」と「プロンプト品質の低さ」に起因すると指摘し、プロンプト品質を測る評価基準（明確性・制約条件の有無・出力形式の指定度）を公開している。AI活用の失敗は技術の問題ではなく設計の問題という視点が一貫しており、チーム全体のプロンプトリテラシーを底上げするための具体的な評価軸を提示している。</p>
+    <p>制作チームのAI活用がうまく進まない原因を「ツール」ではなく「設計とスキル」に帰因する分析は、社内研修設計に直結する。ディレクターが社内AIリテラシーの現状診断を行う際の評価軸として使える。</p>
+    <p><a href="https://smartcodes.jp/education/articles/ai-failure-prompt-quality-criteria/">出典：smartcodes.jp</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で注目される生成AIツールを2026年版として整理した。GoogleのStitch（UI生成専用・プロンプトからDesign Systemに沿ったUI要素を生成）、STUDIO AI（日本語で指示→Webサイト構造を自動生成）、Figma Makeなどを用途別に解説している。ワイヤーフレーム・UIデザイン・プロトタイプ・コード生成まで各工程をカバーするツールの棲み分けを把握できる。無料〜月額課金の費用感も整理されており、ツール選定の出発点として機能する。</p>
+    <p>デザイン工程をカバーするAIツールの選択肢が急拡大している。ディレクターがデザイナーとのツール選定議論を主導するには、工程ごとのツール特性を把握しておくことが前提になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>sugoyoku.com「2026年版｜Web制作AIプロンプト実践例20選【効率化】」</strong></p>
+    <p>sugoyoku.comが、Web制作の各工程で実際に使えるAIプロンプト例20種を公開した。ワイヤーフレーム作成・サイト構成案・CSSコード生成・SEO見出し最適化・バナーテキスト生成まで、ディレクターとエンジニア両方が使いやすい粒度でプロンプトを整理している。「具体的な制約条件をどれだけ含めるか」で出力品質が大きく変わることを実例で示しており、チームへの配布資料として使いやすい構成だ。X（旧Twitter）でも広くシェアされている。</p>
+    <p>具体的なプロンプト集は、AI未経験メンバーが実務でAIを使い始めるハードルを大幅に下げる。ディレクターが社内共有・研修素材として即活用できる実践ガイドだ。</p>
+    <p><a href="https://sugoyoku.com/blog/ai-web-prompt/">出典：sugoyoku.com</a></p>
+  </li>
+  <li>
+    <p><strong>genai-ai.co.jp「【2026年7月最新】生成AIトレンド完全ガイド｜注目の技術動向・活用事例・ビジネスへの影響」</strong></p>
+    <p>genai-ai.co.jpが7月版として、AIエージェントの実用化を中心とした2026年の生成AIトレンドをまとめた。Claude Code・Codex・Copilot Agentなど自律型AIツールが相次いで登場し、「AIが答えるだけ」から「AIが仕事をする」段階へ移行しつつある状況を整理している。ノーコードがプロトタイプ専用から月間100万PVクラスの本番システムにも活用される事例が増加し、Web制作の役割分担と単価体系が変わりつつある実態を詳述している。</p>
+    <p>AIエージェントが「作業代行」から「プロジェクト遂行」へ進化するトレンドは、ディレクターが工数見積と外注判断の根拠を更新する理由になる。提案資料の前提設定を刷新する素材として活用できる。</p>
+    <p><a href="https://genai-ai.co.jp/ai-kanri/blog/cc-generative-ai-trends/">出典：genai-ai.co.jp</a></p>
+  </li>
+  <li>
+    <p><strong>web-heihou.jp「AIでホームページ制作！素人が陥る『稼げないサイト』の罠とプロの成功戦略」</strong></p>
+    <p>web-heihou.jpが、AIを使ったホームページ制作の落とし穴と、制作会社がプロとして差別化する戦略を解説した。「AIが作った見栄えの良いサイト」と「集客・CV設計が施されたサイト」の違いを整理し、素人がAIセルフ制作で陥りがちな「デザイン優先・ビジネス設計不在」の罠を指摘している。プロの成功戦略として「AI生成→戦略的レビュー→集客設計の統合」という3段階フローを提示し、受託制作の付加価値を明確に示している。</p>
+    <p>AIセルフ制作が普及する中で制作会社・ディレクターが提供できる付加価値が明確に示されている。「なぜ受託制作を選ぶべきか」を説明する営業論拠として使えるロジックを提供している。</p>
+    <p><a href="https://web-heihou.jp/blog/web-site/ai-website-development/">出典：web-heihou.jp</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】webtanguide「2026年7月開催のWebマーケティングセミナー・イベントまとめ」</strong></p>
+    <p>Web担ガイドが7月開催のWebマーケティング関連セミナーとイベントをまとめた。AI活用・SEO・SNS運用・Web制作効率化をテーマにした無料〜有料のウェビナー・勉強会が多数掲載されており、業界コミュニティのAI関心の高さが反映されている。Webディレクター向けAI活用セミナー、デザイン系AI入門ワークショップ、SNS×AIコンテンツ戦略セッションなどが含まれる。短期間でAI実務スキルをアップデートする機会が豊富な月となっている。</p>
+    <p>業界コミュニティで「AIをどう使うか」の議論が実務レベルに移行していることが、イベント構成から読み取れる。チームメンバーのスキルアップ機会として参加推薦できるイベントを選ぶ際の一覧として活用できる。</p>
+    <p><a href="https://www.webtanguide.jp/event/202607_eventnews/">出典：Web担ガイド</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】株式会社AX「【2026年最新】AI Webデザイン入門！おすすめツールと業務を効率化する活用法」</strong></p>
+    <p>株式会社AXが、AI Webデザインの入門ガイドをSNSでシェアされやすい形式でまとめ公開した。デザイナーがAIを使う際の心理的ハードルを下げることを意識した構成で、Figma AIの基本操作・プロンプトの書き方・ツール切り替えの判断基準を段階的に解説している。「まず試す→結果を評価する→プロンプトを調整する」というPDCAに近いAIデザイン習慣を提案しており、実務未経験者向けの導入教材として機能する内容だ。</p>
+    <p>デザイナーがAIツールを「試す文化」を作るきっかけになる入門記事だ。社内のデザイン担当者に共有することで、AIデザイン実験の第一歩を促しやすい。</p>
+    <p><a href="https://a-x.inc/blog/ai-web-design/">出典：株式会社AX</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>LogRocket Blog「AI dev tool power rankings &amp; comparison [July 2026]」</strong></p>
+    <p>LogRocketが毎月更新するAI開発ツールのランキングと比較を7月版として公開した。Claude CodeがSWE-benchで継続トップを維持し、Windsurf後継のDevin Desktopがエージェント機能を強化している現状を整理している。GitHub Copilotは使用量ベース課金移行後も採用数1位を維持しているが、コスト管理の複雑化が課題として浮上している。ツールの実力と採用動向を客観的に把握できる月次指標として信頼度が高い。</p>
+    <p>ツールランキングを定点観測することで、制作チームが使っているツールが業界水準に対してどう位置するか判断できる。ツール見直しや新規導入を提案するタイミングの根拠になる。</p>
+    <p><a href="https://blog.logrocket.com/ai-dev-tool-power-rankings/">出典：LogRocket Blog</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket Blog「CSS in 2026: The new features reshaping frontend development」</strong></p>
+    <p>LogRocketが2026年のCSSに搭載された新機能が、フロントエンド開発をどう変えているかを解説した。`@starting-style`と`transition-behavior: allow-discrete`が主要ブラウザで安定動作し、JavaScriptなしで要素の表示・非表示アニメーションが実装可能になった。CSSネスト記法・コンテナクエリ・カスケードレイヤーも実務活用フェーズに入り、Sassや複雑なBEM設計が不要になるケースが増えている。CSS単体でできる表現の幅が大きく広がっている。</p>
+    <p>CSSの新機能が実用レベルに達するとJavaScriptライブラリ依存の設計が見直され、制作コストとパフォーマンスの両方が改善しうる。ディレクターが技術要件の見直しをエンジニアと議論する際の知識として役立つ。</p>
+    <p><a href="https://blog.logrocket.com/css-in-2026/">出典：LogRocket Blog</a></p>
+  </li>
+  <li>
+    <p><strong>UI Motion Prompts「CSS Animations Are Dead — Here's What Replaced Them」</strong></p>
+    <p>UIMotionPromptsが、CSSアニメーション全盛時代が終わりAIプロンプトによるFramer Motion生成が標準になりつつある転換点を論じた。CSSアニメーションの検索流量が40%減少し、React開発者の間でAI生成Framer MotionがCSSキーフレームに取って代わりつつあるという統計的根拠を示している。「animated card grid」「page transition」などと指示するだけで動作するアニメーションコンポーネントが生成される時代になったと述べている。モーション設計のコモディティ化が加速している実態だ。</p>
+    <p>アニメーション実装の自動化が進むと、モーション演出を含む提案の実装コストが下がる。ディレクターがインタラクション仕様を提案する際の技術的前提として、実現コストを再評価するタイミングだ。</p>
+    <p><a href="https://uimotionprompts.com/blog/css-animations-dead-ai-replacement">出典：UI Motion Prompts</a></p>
+  </li>
+  <li>
+    <p><strong>Anthropic「Introducing Claude Sonnet 5」</strong></p>
+    <p>AnthropicがClaude Sonnet 5を6月30日にリリースした。1Mトークンのコンテキストウィンドウ・128k最大出力トークン・コーディング全フェーズでの高精度が特徴で、Free・Proプランのデフォルトモデルとして提供される。ブラウザ操作・ターミナル実行を含む複雑な多段階タスクを自律実行でき、入力$2/Mトークン（8月末まで）という価格設定でAPI活用コストが下がった。制作・開発への本格組み込みが現実的になっている。</p>
+    <p>Web制作チームが最も活用するAIコーディングエージェントの基盤モデルがアップデートされた。Claude Codeを用いたLP制作・コード移行・デバッグの精度と速度の前提が変わり、見積とQAフローの見直しが必要になる。</p>
+    <p><a href="https://www.anthropic.com/news/claude-sonnet-5">出典：Anthropic</a></p>
+  </li>
+  <li>
+    <p><strong>Shareuhack「Cursor vs Claude Code vs Windsurf（Now Devin Desktop）2026: Pricing, Benchmarks &amp; Which One to Pick」</strong></p>
+    <p>Shareuhackが、Cursor・Claude Code・Windsurf（現Devin Desktop）の2026年版実用比較を公開した。WinDsurfがCognitionに買収されDevin Desktopに改名・再設計された経緯と機能変更（Cascade廃止・Devin Local移行）を整理している。Cursorは月$20でJetBrains対応・Automations（イベントトリガー型常時動作エージェント）を追加し、Claude CodeはPro/Maxプランで上限付き月額利用が可能な体制を維持。ツール選定の実践的な意思決定フローが示されている。</p>
+    <p>制作チームの標準ツールを選定・見直す際に、コスト・機能・エコシステムを一覧で比較できる資料として使いやすい。特にWindsurf→Devin Desktop移行情報は既存ユーザーの制作チームには緊急度が高い。</p>
+    <p><a href="https://www.shareuhack.com/en/posts/cursor-vs-claude-code-vs-windsurf-2026">出典：Shareuhack</a></p>
+  </li>
+  <li>
+    <p><strong>builder.io「Best AI Coding Tools for Developers in 2026」</strong></p>
+    <p>builder.ioが、2026年のAIコーディングツール一覧を開発者視点でまとめた。GitHub CopilotがユーザーBase 2,000万人を突破し最も普及したツールとしてトップに立つ一方、フロントエンド特化ではv0（FigmaデザインをReactコードに即変換）やLocofy（多フレームワーク対応デザイン→コード変換）が存在感を増している。フルスタック構築ではReplitやAtoms（自然言語からフロント・バック・DB・ホスティングを一括生成）も評価されている。</p>
+    <p>フロントエンド実装に特化したツールの進化は、デザイン→コード変換の工程を大幅に自動化する可能性を持つ。ディレクターがデザイナーとエンジニアの役割境界を見直す際の具体的な技術的裏付けになる。</p>
+    <p><a href="https://www.builder.io/blog/best-ai-tools-2026">出典：builder.io</a></p>
+  </li>
+  <li>
+    <p><strong>LogRocket「Figma AI in 2026: Everything it can do — and what it still can't」</strong></p>
+    <p>LogRocketが、2026年時点のFigma AIの全機能と限界を整理した実用レビューを公開した。プロンプトからUIを生成するMake Designs、テキストから完全なWebサイトを構築するFigma Make、GPT-5.6が組み込まれたFigma Sites（7月9日対応）などが実用化されている。一方で「ブランドの一貫性」と「デザインシステムの遵守」はまだ自動化できず、人による調整が不可欠な領域として残っていると分析している。できることと限界が明確に区分されている点が実務的だ。</p>
+    <p>Figmaを中心ツールとする制作現場では、どの工程をAI任せにして何を人が担うかの判断が品質を左右する。ディレクターが体制設計・レビュー工程の設計根拠として使える資料だ。</p>
+    <p><a href="https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/">出典：LogRocket</a></p>
+  </li>
+  <li>
+    <p><strong>upSkill「Figma 2026 Update | AI Features &amp; Workflow Changes」</strong></p>
+    <p>upSkillが2026年のFigma全体アップデートをワークフロー変化の観点でまとめた。1月22日のFigma Make埋め込み対応（Design/FigJam/Slidesに統合）、スマート変数・柔軟なコンポーネントSlots・画像編集の内蔵化など機能の統合が進んでいる実態を整理している。Dev Modeのコラボレーション強化によりデザイナーとエンジニアの同期コストが減りつつある。2026年のFigmaは「デザインツール」から「Web制作プラットフォーム」への移行が完成しつつあると評している。</p>
+    <p>FigmaのPlatform化が進むと、デザイナー・エンジニア・ディレクターが同一ツール上で連携するワークフローが主流になる。採用要件・ツール研修・体制設計を更新するタイミングの参考になる。</p>
+    <p><a href="https://upskill.biz/figma-2026-update-ai-features-2026/">出典：upSkill</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】DEV Community「5 CSS Animations That Needed JavaScript Until 2026」</strong></p>
+    <p>DEV Communityに投稿された、2026年以前はJavaScriptが必要だったCSSアニメーション5種を紹介する記事がエンジニアコミュニティで広くシェアされている。`@starting-style`を使った要素登場アニメーション、`transition-behavior: allow-discrete`による`display: none`のトランジション、カスタムプロパティを活用したスムーズな変数アニメーションなどを実際のコード付きで紹介している。JavaScriptなし・バンドルサイズゼロで実現できるアニメーション技術の最前線を把握できる。</p>
+    <p>CSS単体での表現力向上はフロントエンドの実装コストに直接影響する。アニメーション工数の見直しや、フレームワーク依存を減らしたシンプルな実装への移行を検討するきっかけになる。</p>
+    <p><a href="https://dev.to/raxxostudios/5-css-animations-that-needed-javascript-until-2026-2p4j">出典：DEV Community</a></p>
+  </li>
+  <li>
+    <p><strong>【SNS/動画】Medium「The 2026 AI Coding Platform Wars: Replit vs Windsurf vs Bolt.new vs Lovable」</strong></p>
+    <p>Mediumに投稿されたこの記事が開発者コミュニティで注目を集めている。Replit・Windsurf（Devin Desktop）・Bolt.new・Lovableの「フルスタックAIアプリビルダー」4社を、機能・料金・利用シーン別に比較している。Replitはバックエンド・データベース・ホスティング込みの一括生成に強く、Bolt.newはフロントエンド特化・ロックインなしのReact出力が強みとされる。v0との違いや用途別の使い分けについて、実際に各ツールを試した経験から率直に評価している。</p>
+    <p>クライアントが「Bolt.newでサイトを作ってみたい」と言い出すケースが増える状況で、受託制作会社が差別化ポイントを説明するための比較軸として活用できる。AIビルダーの限界と制作会社の価値を再整理する際の資料になる。</p>
+    <p><a href="https://medium.com/@aftab001x/the-2026-ai-coding-platform-wars-replit-vs-windsurf-vs-bolt-new-f908b9f76325">出典：Medium</a></p>
+  </li>
+</ol>
+
+<h3>今日の1本</h3>
+<p><strong><a href="https://ai-pedia.jp/guides/ai-web-development-failure-cases/">AI Web制作 失敗事例10選【2026年版】（AIpedia）</a></strong></p>
+<p>AIコード生成の活用が加速する今、XSS脆弱性の混入やハルシネーションによる誤情報掲載など「実際に起きた失敗」を体系的に知ることは、受託制作ディレクターの責務だ。生成→レビュー→セキュリティチェック→デプロイの4段階QAフローは今日すぐ自社の工程表に組み込める。「AI＝完成品」という前提でクライアントに渡すリスクを防ぐため、現場共有を急ぎたい。</p>]]></content:encoded>
+    </item>
+    <item>
       <title>【AIニュース】2026年7月21日（Webディレクター向け）</title>
       <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
       <guid isPermaLink="false">2026-07-21-daily</guid>
