@@ -7,6 +7,278 @@
     <language>ja</language>
     <!-- ここから下に各回の <item> が自動で追記されます -->
     <item>
+      <title>【AI週間ベスト】2026年8月1日（Webディレクター向け）</title>
+      <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
+      <guid isPermaLink="false">2026-08-01-weekly</guid>
+      <pubDate>Sat, 01 Aug 2026 17:39:35 +0000</pubDate>
+      <description><![CDATA[<h2>【AI週間ベスト】2026年8月1日（Webディレクター向け）</h2>
+<p>対象期間：過去7日（〜2026年8月1日）。Web制作・ディレクション実務への影響を最優先に、一過性の小ネタより構造的な変化を重視して国内10件・海外10件を選定しました。</p>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>Figma Config 2026 総まとめ──「コードレイヤー」「モーション」「Figmaエージェント」でデザインとコードの境界が消える</strong></p>
+    <p>クラスメソッドDevelopersIOが、Figma Config 2026で発表された新機能を総括した。目玉はデザインレイヤーをワンクリックで編集可能なコードに変換する「コードレイヤー」で、キャンバス上でコードを直接扱えるようになった。加えてタイムラインでのモーション制作、キャンバスの文脈を読んで作業を補助する「Figmaエージェント」、WebGPUシェーダー生成なども加わった。単なるデザインツールから、制作プラットフォームへの転換が明確になっている。</p>
+    <p>デザインカンプがそのまま編集可能なコードになると、デザイン→実装のハンドオフ工程そのものが再設計を迫られる。ディレクターは承認フローと成果物定義を「コードを含む前提」で見直す必要がある。</p>
+    <p><a href="https://dev.classmethod.jp/en/articles/figma-config-2026-recap/">出典：DevelopersIO（クラスメソッド）</a></p>
+  </li>
+  <li>
+    <p><strong>クリーク・アンド・リバー社、Webディレクター向け無料セミナー「AIで変わるWebディレクション！」を7/27開催</strong></p>
+    <p>クリーク・アンド・リバー社が7月27日、Webディレクターを対象に「AIで変わるWebディレクション！業務時間を削減し、成果を向上させる実務への組み込み方」を開催した。議事録・タスク管理など日常業務の自動化手順に加え、ディレクション実務フロー全体へのAI組み込み設計を主題に据えている。「ツール紹介」ではなく業務フローの再設計に踏み込む構成が実務寄りだ。成果物の品質向上と工数削減の両立を狙う点が特徴。</p>
+    <p>どのフェーズにAIを差し込むかの優先順位と方法論を、ディレクター業務全体の視点で学べる。自社のフロー標準を更新する起点として活用できる。</p>
+    <p><a href="https://prtimes.jp/main/html/rd/p/000004916.000003670.html">出典：PR TIMES</a></p>
+  </li>
+  <li>
+    <p><strong>Taskhbマガジン：Web・映像制作で生成AI活用、提案期間を10日→1.5日に短縮し大手と契約</strong></p>
+    <p>Taskhubマガジンが、Web・映像制作会社が生成AIを提案フェーズに導入し、従来10日を要していた提案を1.5日へ短縮、大手クライアントとの契約獲得につなげた事例を報じた。企画・ラフ案・Dev環境構築までをAIで前倒しし、初回提案の解像度とスピードを両立させた過程が語られている。受注前の投資対効果を根本から変える国内の実践例だ。</p>
+    <p>提案リードタイムが1桁縮むと、受注前工数の採算ラインとコンペ戦略が変わる。受託の見積・体制設計を見直すディレクターにとって直接の参考事例になる。</p>
+    <p><a href="https://taskhub.jp/magazine/interview/15324/">出典：Taskhubマガジン</a></p>
+  </li>
+  <li>
+    <p><strong>necco「ウェブ制作会社フロントエンドエンジニアの"AIツール、こう使ってます"」</strong></p>
+    <p>Web制作会社neccoが、自社フロントエンドエンジニアの実際のAIツール活用法を公開した。Claude CodeやCursorなどをコーディング・レビュー・調査のどの局面でどう使い分けているか、リアルな運用を具体的に紹介している。ツール礼賛ではなく、任せる範囲と人が持つ範囲の線引きを含めた現場知が中心だ。制作会社視点での等身大の導入実態がわかる。</p>
+    <p>実装現場のAI運用が具体的に見えることで、ディレクターは工数見積とレビュー体制の前提を更新できる。エンジニアとの役割分担の会話の土台になる。</p>
+    <p><a href="https://necco.inc/note/48139/">出典：necco</a></p>
+  </li>
+  <li>
+    <p><strong>レバテックLAB「サイト構築からデプロイまで。AIが変えるフロントエンド開発」</strong></p>
+    <p>レバテックLABが、サイト構築からデプロイに至るフロントエンド開発工程をAIがどう変えるかを整理した。UI生成・コード補完・自律的なコーディングエージェントが、実装だけでなくアーキテクチャ判断にまで踏み込みつつある現状を解説している。個々のツール紹介にとどまらず、開発フロー全体の再構成という視点で論じている点が有用だ。</p>
+    <p>実装工程の主導権がAIエージェントへ移ると、ディレクターが管理すべきは「成果物」から「AIへの指示と検収」へと移る。体制設計を考える上での見取り図になる。</p>
+    <p><a href="https://levtech.jp/media/article/column/detail_615/">出典：レバテックLAB</a></p>
+  </li>
+  <li>
+    <p><strong>ITreview Labo：STUDIOに聞く「ノーコード×生成AIでWebサイト制作はどう変わるか」</strong></p>
+    <p>ITreview LaboがノーコードWeb制作ツールSTUDIOに取材し、生成AIによるデザイン業務の効率化と今後の展望をまとめた。日本語理解に強い「STUDIO AI」がデザインアシスタントとして制作フローに組み込まれ、国内制作現場での実用が進んでいる状況が語られている。ノーコードと生成AIの組み合わせが制作のハードルを下げる方向性が示されている。</p>
+    <p>国内クライアント案件で採用しやすい日本語対応ノーコード＋AIの動向は、小〜中規模サイトの制作手段の選択肢を広げる。見積と制作体制の設計に影響する。</p>
+    <p><a href="https://www.itreview.jp/labo/archives/22951">出典：ITreview Labo</a></p>
+  </li>
+  <li>
+    <p><strong>AI NEWS（wetch）「Framer入門：AI生成＋ビジュアル編集でコードなしに公開するWebビルダー」</strong></p>
+    <p>国内メディアAI NEWSが、AI生成・CMS・高速ホスティングを統合したノーコードWebビルダーFramerを解説した。新規プロジェクトで「Generate with AI」を選び自然言語で要件を書くと、60秒以内にマルチページのレスポンシブ・ワイヤーフレームが生成される。Figma的なビジュアル編集でそのまま仕上げて公開できる点が特徴だ。LP・小規模サイトの高速立ち上げに向く。</p>
+    <p>要件記述から公開までの時間が短縮されると、提案時のプロトタイプ提示や小規模案件の採算が変わる。ディレクターがツール選定の標準に加える価値がある。</p>
+    <p><a href="https://www.wetch.co.jp/ai/2026/06/24/framer%E5%85%A5%E9%96%80%EF%BC%9Aai%E7%94%9F%E6%88%90%EF%BC%8B%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E7%B7%A8%E9%9B%86%E3%81%A7%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AA%E3%81%97%E3%81%AB%E5%85%AC/">出典：AI NEWS（wetch）</a></p>
+  </li>
+  <li>
+    <p><strong>ニジボックス「Web制作を効率化！工程別に使えるAIツール9選【2026年最新版】」</strong></p>
+    <p>リクルート傘下のニジボックスが、Web制作の工程別に使えるAIツールを最新版として整理した。UI生成のv0、コード補完のGitHub Copilot、自律コーディングのClaude Code、ノーコードのFramerなどを、デザイン・実装・公開の各フェーズにマッピングしている。「何をどの工程で使うか」を制作フロー基準で選べる構成が実務向けだ。</p>
+    <p>工程ごとのツール地図があると、ディレクターは案件特性に応じたツール構成をチームに提示しやすい。制作フロー標準の見直しに直接使える。</p>
+    <p><a href="https://blog.nijibox.jp/article/ai_frontend_tools/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で使われる生成AIツールを最新版として網羅的に整理した。Uizardやスクリーンショットからのモックアップ生成、Figma AIによるプロンプトからの骨組み生成など、数分でワイヤー／モックが完成する現状をまとめている。UI/UX領域が2026年で最も変化が激しい分野であることを、ツール横断で俯瞰できる内容だ。</p>
+    <p>UI/UXの初期案作成が数分に短縮されると、要件定義〜デザイン提案の進め方が変わる。ディレクターがデザイナーとの協業フローを再設計する材料になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>note「AIクリエイティブ制作の現場ルール：品質担保と納品までの実務フロー」</strong></p>
+    <p>制作現場でAIを使う際の品質担保と納品フローを実務目線で整理した記事。AIが初期コンセプトやバリエーション生成を担い、ブランドガイドライン適合や細部調整、最終チェックは必ず人が行う分業（ヒューマン・イン・ザ・ループ）が定着している点を強調している。クライアント要件の解釈と検収を人が握る運用ルールが具体的に語られている。</p>
+    <p>AI活用時の品質管理と検収の線引きは、受託の契約リスクと品質基準に直結する。ディレクターが制作ガイドラインを更新する際の実務的な下敷きになる。</p>
+    <p><a href="https://note.com/bold_mimosa1834/n/n88cfc5d734a7">出典：note（AIで稼ぐ研究所）</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>Anthropic、Claude Opus 5を7/24リリース──1Mトークン文脈・128K出力、知能・エージェント指数で首位</strong></p>
+    <p>Anthropicが7月24日にClaude Opus 5を公開し、Artificial AnalysisのIntelligence Index（61）とAgentic Index（55.3）で即座に首位に立った。1Mトークンのコンテキスト、最大128Kの出力、thinkingデフォルト有効を備え、価格は$5/$25（100万トークン）とFable 5の半額。大規模コードベースを丸ごと扱えるコーディングエージェントとしての実用性が一段上がった。</p>
+    <p>コードベースや設計書全体をAIに委ねられるようになると、制作レビューや技術調査の委任範囲が広がる。Opus 5前提での制作エージェント活用を今すぐ評価する価値がある。</p>
+    <p><a href="https://singhajit.com/dev-weekly/2026/jul-20-26/claude-opus-5-gemini-flash-cursor-router-openai-voice-sharepoint-mrmustard/">出典：Ajit Singh（Dev Weekly）</a></p>
+  </li>
+  <li>
+    <p><strong>GitHub Copilot、7月のVS Codeリリースを公開──Claudeのマルチチャット対応でエージェント運用が進化</strong></p>
+    <p>GitHubが7月30日、VS Code向けCopilotの7月リリースをまとめて公開した。VS Code v1.127〜v1.131が順次出荷され、エージェントの扱い・変更レビュー・チャット・ナビゲーションが改善された。特にClaude向けマルチチャット対応で、1つのエージェントセッション内に履歴・タイトル・モデルを持つ複数チャットを保持できるようになった。エージェント中心の開発運用がさらに実用段階へ進んだ。</p>
+    <p>エディタ内でエージェントを並行運用できると、実装タスクの分割・委任の仕方が変わる。ディレクターは開発チームの生産性前提とレビュー方法を更新する必要がある。</p>
+    <p><a href="https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases/">出典：GitHub Changelog</a></p>
+  </li>
+  <li>
+    <p><strong>Cursor v3.11、「Side Chats」「Conversation Search」「Cloud Agent Hooks」で並行エージェント運用を強化</strong></p>
+    <p>AIコードエディタCursorがv3.11を公開し、並行してエージェント会話を進められる「Side Chats」、会話横断検索の「Conversation Search」、クラウドエージェントにフックを差せる「Cloud Agent Hooks」を追加した。2026年7月時点で多くのAIネイティブ開発者がCursorとClaude Codeを併用しタスクで使い分けている、という現場実態も報じられている。</p>
+    <p>実装現場が複数エージェントの並行運用へ移ると、成果物の生産速度とレビュー負荷が同時に上がる。ディレクターは検収体制と品質ゲートを設計し直す必要がある。</p>
+    <p><a href="https://www.futureproofing.dev/resources/ai-native-team/cursor-vs-claude-code-2026">出典：Futureproofing.dev</a></p>
+  </li>
+  <li>
+    <p><strong>Vercel v0が「本番投入」フェーズへ──生成UIをそのまま本番に、年換算売上は約5,000万ドルに接近</strong></p>
+    <p>Vercelの生成UIツールv0が2026年に本番投入可能なコード品質へ到達し、顧客チームがv0生成のUIを軽いレビューだけで本番に載せる運用が一般化していると報じられた。2026年4月時点で年換算売上（ARR）は約5,000万ドルに接近し、有料利用は前年比で倍増。Lovableやbolt.new、Replit Agent、Cursorと並ぶ「AIアプリビルダー」市場でReact UI生成の精度で優位に立つ。</p>
+    <p>生成UIが本番品質に達すると、フロント実装の内製・外注バランスと見積の前提が変わる。ディレクターは制作手段の選択肢としてv0系ツールを評価に組み込む段階だ。</p>
+    <p><a href="https://makeanapplike.com/news/launches/vercel-v0-production-ready-2026">出典：MakeAnAppLike</a></p>
+  </li>
+  <li>
+    <p><strong>Figma Make：自然言語から画面と挙動を生成し、コード書き出しまで可能なAIプロトタイプ生成</strong></p>
+    <p>Figmaは「Figma Make」で、画面と挙動を自然言語で記述すると構造・ナビゲーション・インタラクションを自動生成し、そのまま調整または実用可能なコードとして書き出せる機能を提供している。2026年のFigma AIはコンテンツ生成・画像編集・UI下書き・コードハンドオフ・フルサイト生成まで守備範囲を広げ、キャンバスを離れずにUIバリエーションを作れる。</p>
+    <p>デザインからインタラクティブなプロトタイプとコードまでを一気通貫で作れると、プロトタイプ提示とハンドオフの工程が短縮される。ディレクターは提案フローの標準に組み込める。</p>
+    <p><a href="https://www.figma.com/solutions/ai-interactive-prototype-generator/">出典：Figma</a></p>
+  </li>
+  <li>
+    <p><strong>Smashing Magazine「The Future of Front-End Development with AI」──AIが実装だけでなくアーキテクチャ判断へ</strong></p>
+    <p>Smashing Magazineが、v0・GitHub Copilot・Cursorといったツールがコード生成にとどまらず設計判断にまで踏み込みつつある現状を論じた。2026年に押さえるべき技術としてVercel AI SDKやReact Server Componentsの習得を挙げ、フロントエンド開発者の役割変化を提示している。ツール礼賛ではなく、職能の再定義という構造的視点が特徴だ。</p>
+    <p>実装の主導権がAIへ移るなかで求められるスキルと役割が変わると、制作チームの体制設計や採用要件も変わる。ディレクターが中長期の人員計画を考える手がかりになる。</p>
+    <p><a href="https://smashingmagazine.com/">出典：Smashing Magazine</a></p>
+  </li>
+  <li>
+    <p><strong>OpenAI、GPT-5.6ファミリー（Sol/Terra/Luna）を7/9に一般提供──ChatGPTの既定モデルに</strong></p>
+    <p>OpenAIが7月9日にGPT-5.6ファミリー（Sol・Terra・Luna）を一般提供し、ChatGPTの既定モデルとして稼働を開始した。上位のGPT-5.6 SolはLiveBench数学（96.2）・推論（91.7）やARC-AGI-2（93%）で首位を取るなど、推論・数理性能を大きく引き上げている。基盤モデルの世代交代が続く。</p>
+    <p>基盤モデルの精度向上は、要件整理・仕様書ドラフト・コピー生成などディレクション周辺タスクの品質底上げに効く。制作にどう効くかの観点で最新世代を試す価値がある。</p>
+    <p><a href="https://felloai.com/best-ai-models/">出典：Fello AI</a></p>
+  </li>
+  <li>
+    <p><strong>Google、Gemini 3.6 Flash／3.5 Flash-Liteなど複数のFlashモデルを投入──低コスト高速枠を拡充</strong></p>
+    <p>Googleが7月にGemini 3.6 Flash、Gemini 3.5 Flash-Lite、セキュリティ特化のGemini 3.5 Flash（制限付き）を相次いで投入し、低コスト・高速帯のラインナップを拡充した。上位モデルの話題が続くなかで、大量処理や軽量タスク向けの選択肢を厚くする動きだ。用途に応じたモデルの使い分けがより現実的になっている。</p>
+    <p>低コスト・高速モデルの充実は、大量のコピー生成やコンテンツ整形などをコスト現実的に自動化できることを意味する。制作の運用コスト設計に選択肢を与える。</p>
+    <p><a href="https://felloai.com/best-ai-models/">出典：Fello AI</a></p>
+  </li>
+  <li>
+    <p><strong>DEV Community「24 Best AI Design Tools for Designers and Developers in 2026」──Flowstepらキャンバス→コード系が台頭</strong></p>
+    <p>DEV Communityが、2026年にデザイナー／開発者が使うAIデザインツール24選をまとめた。キャンバスから直接コードを生成する「AIデザインエンジニア」的なFlowstepや、コード補完のGitHub Copilot、Figma Makeなどが、デザインワークフローに直接埋め込まれてプロトタイピングを加速している状況を整理している。反復作業を肩代わりし、アイデアから動くプロダクトまでの距離を縮める傾向が示される。</p>
+    <p>デザイン→コードを橋渡しするツール群を俯瞰できると、案件特性に合ったツール選定がしやすい。ディレクターがデザイン・実装の連携フローを再設計する材料になる。</p>
+    <p><a href="https://dev.to/hadil/24-best-ai-design-tools-for-designers-and-developers-in-2026-i1h">出典：DEV Community</a></p>
+  </li>
+  <li>
+    <p><strong>Microsoft、Dataverseのコーディングエージェント連携をClaude／Cursor／Copilotへ拡大──MCPガバナンスを整備</strong></p>
+    <p>Microsoftは7月6日、Dataverseをエージェント向けデータ基盤として位置づけ直し、コーディングエージェント連携プラグインをClaude・Cursor・GitHub Copilotへ拡大すると発表した。あわせてMCP（Model Context Protocol）のサポート・認証・ガバナンスをMicrosoftのAIスタック横断で広げる。企業データにエージェントを安全につなぐための統制強化が主眼だ。</p>
+    <p>エージェントが企業データや制作管理システムに安全につながる基盤が整うと、ディレクションや情報設計の自動化余地が広がる。中〜大規模案件のガバナンス設計を考える前提になる。</p>
+    <p><a href="https://windowsforum.com/threads/dataverse-expands-coding-agent-plugin-to-claude-cursor-and-copilot-with-mcp-governance.435235/">出典：Windows Forum</a></p>
+  </li>
+</ol>
+
+<h3>今週の1本</h3>
+<p>Figma Config 2026の「コードレイヤー」を今週の1本に推す。デザインレイヤーをワンクリックで編集可能なコードに変換できるこの機能は、Web制作で長年ボトルネックだった「デザイン→実装のハンドオフ」という工程そのものを構造的に組み替える。ディレクターが管理する成果物定義・承認フロー・体制設計の前提を根本から更新させる射程を持つため、単なる新機能追加を超えた今週最大の論点だ。<a href="https://dev.classmethod.jp/en/articles/figma-config-2026-recap/">出典：DevelopersIO</a></p>]]></description>
+      <content:encoded><![CDATA[<h2>【AI週間ベスト】2026年8月1日（Webディレクター向け）</h2>
+<p>対象期間：過去7日（〜2026年8月1日）。Web制作・ディレクション実務への影響を最優先に、一過性の小ネタより構造的な変化を重視して国内10件・海外10件を選定しました。</p>
+
+<h3>📍 国内</h3>
+<ol>
+  <li>
+    <p><strong>Figma Config 2026 総まとめ──「コードレイヤー」「モーション」「Figmaエージェント」でデザインとコードの境界が消える</strong></p>
+    <p>クラスメソッドDevelopersIOが、Figma Config 2026で発表された新機能を総括した。目玉はデザインレイヤーをワンクリックで編集可能なコードに変換する「コードレイヤー」で、キャンバス上でコードを直接扱えるようになった。加えてタイムラインでのモーション制作、キャンバスの文脈を読んで作業を補助する「Figmaエージェント」、WebGPUシェーダー生成なども加わった。単なるデザインツールから、制作プラットフォームへの転換が明確になっている。</p>
+    <p>デザインカンプがそのまま編集可能なコードになると、デザイン→実装のハンドオフ工程そのものが再設計を迫られる。ディレクターは承認フローと成果物定義を「コードを含む前提」で見直す必要がある。</p>
+    <p><a href="https://dev.classmethod.jp/en/articles/figma-config-2026-recap/">出典：DevelopersIO（クラスメソッド）</a></p>
+  </li>
+  <li>
+    <p><strong>クリーク・アンド・リバー社、Webディレクター向け無料セミナー「AIで変わるWebディレクション！」を7/27開催</strong></p>
+    <p>クリーク・アンド・リバー社が7月27日、Webディレクターを対象に「AIで変わるWebディレクション！業務時間を削減し、成果を向上させる実務への組み込み方」を開催した。議事録・タスク管理など日常業務の自動化手順に加え、ディレクション実務フロー全体へのAI組み込み設計を主題に据えている。「ツール紹介」ではなく業務フローの再設計に踏み込む構成が実務寄りだ。成果物の品質向上と工数削減の両立を狙う点が特徴。</p>
+    <p>どのフェーズにAIを差し込むかの優先順位と方法論を、ディレクター業務全体の視点で学べる。自社のフロー標準を更新する起点として活用できる。</p>
+    <p><a href="https://prtimes.jp/main/html/rd/p/000004916.000003670.html">出典：PR TIMES</a></p>
+  </li>
+  <li>
+    <p><strong>Taskhbマガジン：Web・映像制作で生成AI活用、提案期間を10日→1.5日に短縮し大手と契約</strong></p>
+    <p>Taskhubマガジンが、Web・映像制作会社が生成AIを提案フェーズに導入し、従来10日を要していた提案を1.5日へ短縮、大手クライアントとの契約獲得につなげた事例を報じた。企画・ラフ案・Dev環境構築までをAIで前倒しし、初回提案の解像度とスピードを両立させた過程が語られている。受注前の投資対効果を根本から変える国内の実践例だ。</p>
+    <p>提案リードタイムが1桁縮むと、受注前工数の採算ラインとコンペ戦略が変わる。受託の見積・体制設計を見直すディレクターにとって直接の参考事例になる。</p>
+    <p><a href="https://taskhub.jp/magazine/interview/15324/">出典：Taskhubマガジン</a></p>
+  </li>
+  <li>
+    <p><strong>necco「ウェブ制作会社フロントエンドエンジニアの"AIツール、こう使ってます"」</strong></p>
+    <p>Web制作会社neccoが、自社フロントエンドエンジニアの実際のAIツール活用法を公開した。Claude CodeやCursorなどをコーディング・レビュー・調査のどの局面でどう使い分けているか、リアルな運用を具体的に紹介している。ツール礼賛ではなく、任せる範囲と人が持つ範囲の線引きを含めた現場知が中心だ。制作会社視点での等身大の導入実態がわかる。</p>
+    <p>実装現場のAI運用が具体的に見えることで、ディレクターは工数見積とレビュー体制の前提を更新できる。エンジニアとの役割分担の会話の土台になる。</p>
+    <p><a href="https://necco.inc/note/48139/">出典：necco</a></p>
+  </li>
+  <li>
+    <p><strong>レバテックLAB「サイト構築からデプロイまで。AIが変えるフロントエンド開発」</strong></p>
+    <p>レバテックLABが、サイト構築からデプロイに至るフロントエンド開発工程をAIがどう変えるかを整理した。UI生成・コード補完・自律的なコーディングエージェントが、実装だけでなくアーキテクチャ判断にまで踏み込みつつある現状を解説している。個々のツール紹介にとどまらず、開発フロー全体の再構成という視点で論じている点が有用だ。</p>
+    <p>実装工程の主導権がAIエージェントへ移ると、ディレクターが管理すべきは「成果物」から「AIへの指示と検収」へと移る。体制設計を考える上での見取り図になる。</p>
+    <p><a href="https://levtech.jp/media/article/column/detail_615/">出典：レバテックLAB</a></p>
+  </li>
+  <li>
+    <p><strong>ITreview Labo：STUDIOに聞く「ノーコード×生成AIでWebサイト制作はどう変わるか」</strong></p>
+    <p>ITreview LaboがノーコードWeb制作ツールSTUDIOに取材し、生成AIによるデザイン業務の効率化と今後の展望をまとめた。日本語理解に強い「STUDIO AI」がデザインアシスタントとして制作フローに組み込まれ、国内制作現場での実用が進んでいる状況が語られている。ノーコードと生成AIの組み合わせが制作のハードルを下げる方向性が示されている。</p>
+    <p>国内クライアント案件で採用しやすい日本語対応ノーコード＋AIの動向は、小〜中規模サイトの制作手段の選択肢を広げる。見積と制作体制の設計に影響する。</p>
+    <p><a href="https://www.itreview.jp/labo/archives/22951">出典：ITreview Labo</a></p>
+  </li>
+  <li>
+    <p><strong>AI NEWS（wetch）「Framer入門：AI生成＋ビジュアル編集でコードなしに公開するWebビルダー」</strong></p>
+    <p>国内メディアAI NEWSが、AI生成・CMS・高速ホスティングを統合したノーコードWebビルダーFramerを解説した。新規プロジェクトで「Generate with AI」を選び自然言語で要件を書くと、60秒以内にマルチページのレスポンシブ・ワイヤーフレームが生成される。Figma的なビジュアル編集でそのまま仕上げて公開できる点が特徴だ。LP・小規模サイトの高速立ち上げに向く。</p>
+    <p>要件記述から公開までの時間が短縮されると、提案時のプロトタイプ提示や小規模案件の採算が変わる。ディレクターがツール選定の標準に加える価値がある。</p>
+    <p><a href="https://www.wetch.co.jp/ai/2026/06/24/framer%E5%85%A5%E9%96%80%EF%BC%9Aai%E7%94%9F%E6%88%90%EF%BC%8B%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E7%B7%A8%E9%9B%86%E3%81%A7%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AA%E3%81%97%E3%81%AB%E5%85%AC/">出典：AI NEWS（wetch）</a></p>
+  </li>
+  <li>
+    <p><strong>ニジボックス「Web制作を効率化！工程別に使えるAIツール9選【2026年最新版】」</strong></p>
+    <p>リクルート傘下のニジボックスが、Web制作の工程別に使えるAIツールを最新版として整理した。UI生成のv0、コード補完のGitHub Copilot、自律コーディングのClaude Code、ノーコードのFramerなどを、デザイン・実装・公開の各フェーズにマッピングしている。「何をどの工程で使うか」を制作フロー基準で選べる構成が実務向けだ。</p>
+    <p>工程ごとのツール地図があると、ディレクターは案件特性に応じたツール構成をチームに提示しやすい。制作フロー標準の見直しに直接使える。</p>
+    <p><a href="https://blog.nijibox.jp/article/ai_frontend_tools/">出典：ニジボックス</a></p>
+  </li>
+  <li>
+    <p><strong>syncAD「Web制作のUI/UXに人気の生成AIツール完全ガイド【2026年最新版】」</strong></p>
+    <p>syncADが、Web制作のUI/UX工程で使われる生成AIツールを最新版として網羅的に整理した。Uizardやスクリーンショットからのモックアップ生成、Figma AIによるプロンプトからの骨組み生成など、数分でワイヤー／モックが完成する現状をまとめている。UI/UX領域が2026年で最も変化が激しい分野であることを、ツール横断で俯瞰できる内容だ。</p>
+    <p>UI/UXの初期案作成が数分に短縮されると、要件定義〜デザイン提案の進め方が変わる。ディレクターがデザイナーとの協業フローを再設計する材料になる。</p>
+    <p><a href="https://syncad.jp/news/94354/">出典：syncAD</a></p>
+  </li>
+  <li>
+    <p><strong>note「AIクリエイティブ制作の現場ルール：品質担保と納品までの実務フロー」</strong></p>
+    <p>制作現場でAIを使う際の品質担保と納品フローを実務目線で整理した記事。AIが初期コンセプトやバリエーション生成を担い、ブランドガイドライン適合や細部調整、最終チェックは必ず人が行う分業（ヒューマン・イン・ザ・ループ）が定着している点を強調している。クライアント要件の解釈と検収を人が握る運用ルールが具体的に語られている。</p>
+    <p>AI活用時の品質管理と検収の線引きは、受託の契約リスクと品質基準に直結する。ディレクターが制作ガイドラインを更新する際の実務的な下敷きになる。</p>
+    <p><a href="https://note.com/bold_mimosa1834/n/n88cfc5d734a7">出典：note（AIで稼ぐ研究所）</a></p>
+  </li>
+</ol>
+
+<h3>🌐 海外</h3>
+<ol>
+  <li>
+    <p><strong>Anthropic、Claude Opus 5を7/24リリース──1Mトークン文脈・128K出力、知能・エージェント指数で首位</strong></p>
+    <p>Anthropicが7月24日にClaude Opus 5を公開し、Artificial AnalysisのIntelligence Index（61）とAgentic Index（55.3）で即座に首位に立った。1Mトークンのコンテキスト、最大128Kの出力、thinkingデフォルト有効を備え、価格は$5/$25（100万トークン）とFable 5の半額。大規模コードベースを丸ごと扱えるコーディングエージェントとしての実用性が一段上がった。</p>
+    <p>コードベースや設計書全体をAIに委ねられるようになると、制作レビューや技術調査の委任範囲が広がる。Opus 5前提での制作エージェント活用を今すぐ評価する価値がある。</p>
+    <p><a href="https://singhajit.com/dev-weekly/2026/jul-20-26/claude-opus-5-gemini-flash-cursor-router-openai-voice-sharepoint-mrmustard/">出典：Ajit Singh（Dev Weekly）</a></p>
+  </li>
+  <li>
+    <p><strong>GitHub Copilot、7月のVS Codeリリースを公開──Claudeのマルチチャット対応でエージェント運用が進化</strong></p>
+    <p>GitHubが7月30日、VS Code向けCopilotの7月リリースをまとめて公開した。VS Code v1.127〜v1.131が順次出荷され、エージェントの扱い・変更レビュー・チャット・ナビゲーションが改善された。特にClaude向けマルチチャット対応で、1つのエージェントセッション内に履歴・タイトル・モデルを持つ複数チャットを保持できるようになった。エージェント中心の開発運用がさらに実用段階へ進んだ。</p>
+    <p>エディタ内でエージェントを並行運用できると、実装タスクの分割・委任の仕方が変わる。ディレクターは開発チームの生産性前提とレビュー方法を更新する必要がある。</p>
+    <p><a href="https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases/">出典：GitHub Changelog</a></p>
+  </li>
+  <li>
+    <p><strong>Cursor v3.11、「Side Chats」「Conversation Search」「Cloud Agent Hooks」で並行エージェント運用を強化</strong></p>
+    <p>AIコードエディタCursorがv3.11を公開し、並行してエージェント会話を進められる「Side Chats」、会話横断検索の「Conversation Search」、クラウドエージェントにフックを差せる「Cloud Agent Hooks」を追加した。2026年7月時点で多くのAIネイティブ開発者がCursorとClaude Codeを併用しタスクで使い分けている、という現場実態も報じられている。</p>
+    <p>実装現場が複数エージェントの並行運用へ移ると、成果物の生産速度とレビュー負荷が同時に上がる。ディレクターは検収体制と品質ゲートを設計し直す必要がある。</p>
+    <p><a href="https://www.futureproofing.dev/resources/ai-native-team/cursor-vs-claude-code-2026">出典：Futureproofing.dev</a></p>
+  </li>
+  <li>
+    <p><strong>Vercel v0が「本番投入」フェーズへ──生成UIをそのまま本番に、年換算売上は約5,000万ドルに接近</strong></p>
+    <p>Vercelの生成UIツールv0が2026年に本番投入可能なコード品質へ到達し、顧客チームがv0生成のUIを軽いレビューだけで本番に載せる運用が一般化していると報じられた。2026年4月時点で年換算売上（ARR）は約5,000万ドルに接近し、有料利用は前年比で倍増。Lovableやbolt.new、Replit Agent、Cursorと並ぶ「AIアプリビルダー」市場でReact UI生成の精度で優位に立つ。</p>
+    <p>生成UIが本番品質に達すると、フロント実装の内製・外注バランスと見積の前提が変わる。ディレクターは制作手段の選択肢としてv0系ツールを評価に組み込む段階だ。</p>
+    <p><a href="https://makeanapplike.com/news/launches/vercel-v0-production-ready-2026">出典：MakeAnAppLike</a></p>
+  </li>
+  <li>
+    <p><strong>Figma Make：自然言語から画面と挙動を生成し、コード書き出しまで可能なAIプロトタイプ生成</strong></p>
+    <p>Figmaは「Figma Make」で、画面と挙動を自然言語で記述すると構造・ナビゲーション・インタラクションを自動生成し、そのまま調整または実用可能なコードとして書き出せる機能を提供している。2026年のFigma AIはコンテンツ生成・画像編集・UI下書き・コードハンドオフ・フルサイト生成まで守備範囲を広げ、キャンバスを離れずにUIバリエーションを作れる。</p>
+    <p>デザインからインタラクティブなプロトタイプとコードまでを一気通貫で作れると、プロトタイプ提示とハンドオフの工程が短縮される。ディレクターは提案フローの標準に組み込める。</p>
+    <p><a href="https://www.figma.com/solutions/ai-interactive-prototype-generator/">出典：Figma</a></p>
+  </li>
+  <li>
+    <p><strong>Smashing Magazine「The Future of Front-End Development with AI」──AIが実装だけでなくアーキテクチャ判断へ</strong></p>
+    <p>Smashing Magazineが、v0・GitHub Copilot・Cursorといったツールがコード生成にとどまらず設計判断にまで踏み込みつつある現状を論じた。2026年に押さえるべき技術としてVercel AI SDKやReact Server Componentsの習得を挙げ、フロントエンド開発者の役割変化を提示している。ツール礼賛ではなく、職能の再定義という構造的視点が特徴だ。</p>
+    <p>実装の主導権がAIへ移るなかで求められるスキルと役割が変わると、制作チームの体制設計や採用要件も変わる。ディレクターが中長期の人員計画を考える手がかりになる。</p>
+    <p><a href="https://smashingmagazine.com/">出典：Smashing Magazine</a></p>
+  </li>
+  <li>
+    <p><strong>OpenAI、GPT-5.6ファミリー（Sol/Terra/Luna）を7/9に一般提供──ChatGPTの既定モデルに</strong></p>
+    <p>OpenAIが7月9日にGPT-5.6ファミリー（Sol・Terra・Luna）を一般提供し、ChatGPTの既定モデルとして稼働を開始した。上位のGPT-5.6 SolはLiveBench数学（96.2）・推論（91.7）やARC-AGI-2（93%）で首位を取るなど、推論・数理性能を大きく引き上げている。基盤モデルの世代交代が続く。</p>
+    <p>基盤モデルの精度向上は、要件整理・仕様書ドラフト・コピー生成などディレクション周辺タスクの品質底上げに効く。制作にどう効くかの観点で最新世代を試す価値がある。</p>
+    <p><a href="https://felloai.com/best-ai-models/">出典：Fello AI</a></p>
+  </li>
+  <li>
+    <p><strong>Google、Gemini 3.6 Flash／3.5 Flash-Liteなど複数のFlashモデルを投入──低コスト高速枠を拡充</strong></p>
+    <p>Googleが7月にGemini 3.6 Flash、Gemini 3.5 Flash-Lite、セキュリティ特化のGemini 3.5 Flash（制限付き）を相次いで投入し、低コスト・高速帯のラインナップを拡充した。上位モデルの話題が続くなかで、大量処理や軽量タスク向けの選択肢を厚くする動きだ。用途に応じたモデルの使い分けがより現実的になっている。</p>
+    <p>低コスト・高速モデルの充実は、大量のコピー生成やコンテンツ整形などをコスト現実的に自動化できることを意味する。制作の運用コスト設計に選択肢を与える。</p>
+    <p><a href="https://felloai.com/best-ai-models/">出典：Fello AI</a></p>
+  </li>
+  <li>
+    <p><strong>DEV Community「24 Best AI Design Tools for Designers and Developers in 2026」──Flowstepらキャンバス→コード系が台頭</strong></p>
+    <p>DEV Communityが、2026年にデザイナー／開発者が使うAIデザインツール24選をまとめた。キャンバスから直接コードを生成する「AIデザインエンジニア」的なFlowstepや、コード補完のGitHub Copilot、Figma Makeなどが、デザインワークフローに直接埋め込まれてプロトタイピングを加速している状況を整理している。反復作業を肩代わりし、アイデアから動くプロダクトまでの距離を縮める傾向が示される。</p>
+    <p>デザイン→コードを橋渡しするツール群を俯瞰できると、案件特性に合ったツール選定がしやすい。ディレクターがデザイン・実装の連携フローを再設計する材料になる。</p>
+    <p><a href="https://dev.to/hadil/24-best-ai-design-tools-for-designers-and-developers-in-2026-i1h">出典：DEV Community</a></p>
+  </li>
+  <li>
+    <p><strong>Microsoft、Dataverseのコーディングエージェント連携をClaude／Cursor／Copilotへ拡大──MCPガバナンスを整備</strong></p>
+    <p>Microsoftは7月6日、Dataverseをエージェント向けデータ基盤として位置づけ直し、コーディングエージェント連携プラグインをClaude・Cursor・GitHub Copilotへ拡大すると発表した。あわせてMCP（Model Context Protocol）のサポート・認証・ガバナンスをMicrosoftのAIスタック横断で広げる。企業データにエージェントを安全につなぐための統制強化が主眼だ。</p>
+    <p>エージェントが企業データや制作管理システムに安全につながる基盤が整うと、ディレクションや情報設計の自動化余地が広がる。中〜大規模案件のガバナンス設計を考える前提になる。</p>
+    <p><a href="https://windowsforum.com/threads/dataverse-expands-coding-agent-plugin-to-claude-cursor-and-copilot-with-mcp-governance.435235/">出典：Windows Forum</a></p>
+  </li>
+</ol>
+
+<h3>今週の1本</h3>
+<p>Figma Config 2026の「コードレイヤー」を今週の1本に推す。デザインレイヤーをワンクリックで編集可能なコードに変換できるこの機能は、Web制作で長年ボトルネックだった「デザイン→実装のハンドオフ」という工程そのものを構造的に組み替える。ディレクターが管理する成果物定義・承認フロー・体制設計の前提を根本から更新させる射程を持つため、単なる新機能追加を超えた今週最大の論点だ。<a href="https://dev.classmethod.jp/en/articles/figma-config-2026-recap/">出典：DevelopersIO</a></p>]]></content:encoded>
+    </item>
+    <item>
       <title>【AIニュース】2026年7月30日（Webディレクター向け）</title>
       <link>https://sagodebabydeboo.github.io/ai-news-feed/</link>
       <guid isPermaLink="false">2026-07-30-daily</guid>
